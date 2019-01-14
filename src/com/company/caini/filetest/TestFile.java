@@ -5,12 +5,12 @@ import java.util.Date;
 import java.util.Arrays;
 
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class TestFile {
 
     public static void main(String[] args) throws IOException {
-        File f1 = new File("/Users/sunchao/Desktop");
+        File f1 = new File("/Users/Batman/Desktop");
         System.out.println("f1的绝对路径:"+f1.getAbsolutePath());
         File f2 = new File(f1,"personInfo.txt");
         System.out.println("f2的绝对路径是" + f2.getAbsolutePath());
@@ -34,7 +34,7 @@ public class TestFile {
         f1.setLastModified(0);
 
         // 文件重命名
-        f2.renameTo(new File(f1, "sunchaoInfo.txt"));
+        f2.renameTo(new File(f1, "BatmanInfo.txt"));
         System.out.println("修改后f2的路径为" + f2.getAbsolutePath());
 
         /*

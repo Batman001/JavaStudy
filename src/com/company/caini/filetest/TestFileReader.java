@@ -4,11 +4,11 @@ import java.io.*;
 import java.nio.charset.Charset;
 
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class TestFileReader {
     public static void main(String[] args){
-        File f = new File("/Users/sunchao/Desktop/sunchaoInfo.txt");
+        File f = new File("/Users/Batman/Desktop/BatmanInfo.txt");
         System.out.println("默认的编码方式是:"+ Charset.defaultCharset());
 
         try(FileReader fr = new FileReader(f)){

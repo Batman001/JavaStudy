@@ -1,9 +1,10 @@
 package com.company.caini.array;
 import java.text.MessageFormat;
 /**
- * Created by sunchao on 2018/5/15.
+ * Created on 2018/5/15.
+ * @author Batman
  */
-public class arrayTest {
+public class ArrayTest {
     public static void main(String[] args){
         int[] a  = new int[5];
         int num = 100;
@@ -72,11 +73,12 @@ public class arrayTest {
         }
     }
 
-    /*
-    比较相邻的元素。如果第一个比第二个大，就交换他们两个。
-    对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。
-    针对所有的元素重复以上的步骤，除了最后一个。
-    持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
+    /**
+     * 比较相邻的元素。如果第一个比第二个大，就交换他们两个。
+     * 对每一对相邻元素作同样的工作，从开始第一对到结尾的最后一对。在这一点，最后的元素应该会是最大的数。
+     * 针对所有的元素重复以上的步骤，除了最后一个。
+     *  持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
+     *
      */
     public static void bubbleSort(int[] arr){
         System.out.println("排序前的数组为");
@@ -106,13 +108,13 @@ public class arrayTest {
 
     }
 
-    /*
-    System.arraycopy(src, srcPos, dest, destPos, length)
-    src: 源数组
-    srcPos: 从源数组复制数据的起始位置
-    dest: 目标数组
-    destPos: 复制到目标数组的起始位置
-    length: 复制的长度
+    /**
+     * System.arraycopy(src, srcPos, dest, destPos, length)
+     * src: 源数组
+     * srcPos: 从源数组复制数据的起始位置
+     * dest: 目标数组
+     * destPos: 复制到目标数组的起始位置
+     * length: 复制的长度
      */
     public static int[] arrayCopy(int[] a, int[] b){
         System.arraycopy(a,0,b,0,3);

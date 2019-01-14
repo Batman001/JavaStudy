@@ -3,8 +3,8 @@ package com.company.caini.thread;
 import java.util.LinkedList;
 
 /**
- * Created by sunchao on 2018/10/15.
- * @author sunchao
+ * Created by Batman on 2018/10/15.
+ * @author Batman
  * 把栈改造为支持线程安全
  * 把栈的边界操作进行处理:
  * 当栈里的数据是0的时候，访问pull的线程就会等待。

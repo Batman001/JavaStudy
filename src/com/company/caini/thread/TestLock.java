@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
 
 /**
- * Created by sunchao on 2018/10/17.
+ * Created by Batman on 2018/10/17.
  * 使用Lock接口同步对象
  */
 public class TestLock {

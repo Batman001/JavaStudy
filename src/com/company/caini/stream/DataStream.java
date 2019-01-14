@@ -3,7 +3,7 @@ package com.company.caini.stream;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/30.
+ * Created by Batman on 2018/7/30.
  */
 public class DataStream {
     public static void main(String[] args){
@@ -12,7 +12,7 @@ public class DataStream {
     }
 
     private static void read() {
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/dataStream.txt");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/dataStream.txt");
         try(
                 FileInputStream fis = new FileInputStream(f);
                 DataInputStream dis = new DataInputStream(fis);
@@ -36,7 +36,7 @@ public class DataStream {
     }
 
     private static void wtite() {
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/dataStream.txt");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/dataStream.txt");
         try(
                 FileOutputStream fos = new FileOutputStream(f);
                 DataOutputStream dos = new DataOutputStream(fos);

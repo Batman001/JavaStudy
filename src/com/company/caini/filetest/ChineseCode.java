@@ -3,14 +3,14 @@ package com.company.caini.filetest;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class ChineseCode {
     public static void main(String[] args){
         //String str = "中";
         //showCode(str);
 
-        File f = new File("/Users/sunchao/Desktop/sunchaoInfo.txt");
+        File f = new File("/Users/Batman/Desktop/BatmanInfo.txt");
         try(FileInputStream fis = new FileInputStream(f)){
             byte[] all = new byte[(int) f.length()];
             fis.read(all);

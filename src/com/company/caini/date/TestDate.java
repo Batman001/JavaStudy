@@ -5,7 +5,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
 /**
- * Created by sunchao on 2018/7/17.
+ * Created by Batman on 2018/7/17.
  */
 public class TestDate {
     public static void main(String[] args){

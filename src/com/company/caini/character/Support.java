@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/6/25.
+ * Created on 2018/6/25.
+ * @author Batman
  */
 public class Support extends Hero implements Healer {
     public Support(String heroName, float heroHp) {
@@ -15,11 +16,15 @@ public class Support extends Hero implements Healer {
 
 
 
-    // 利用可变数量对多个英雄进行加血操作
-    /*
-    当可变参数个数多余一个时，必将有一个不是最后一项，所以只支持有一个可变参数。
-    因为参数个数不定，所以当其后边还有相同类型参数时，
-    java无法区分传入的参数属于前一个可变参数还是后边的参数，所以只能让可变参数位于最后一项。
+
+
+    /**
+     * Description: 利用可变数量对多个英雄进行加血操作
+     * 当可变参数个数多余一个时，必将有一个不是最后一项，所以只支持有一个可变参数
+     * 因为参数个数不定，所以当其后边还有相同类型参数时，
+     * java无法区分传入的参数属于前一个可变参数还是后边的参数，所以只能让可变参数位于最后一项。
+     * @param inp
+     * @param heros
      */
     public void heal(int inp, Hero...heros){
         for(int i=0;i<heros.length;i++){

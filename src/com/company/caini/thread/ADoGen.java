@@ -1,8 +1,8 @@
 package com.company.caini.thread;
 
 /**
- * Created by sunchao on 2018/10/10.
- * @author sunchao
+ * Created by Batman on 2018/10/10.
+ * @author Batman
  */
 public class ADoGen implements Runnable {
     public static void main(String[] args) {

@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Created by sunchao on 2018/10/25.
+ * Created by Batman on 2018/10/25.
  * @author Batman
  * JDBC数据库连接类
  */

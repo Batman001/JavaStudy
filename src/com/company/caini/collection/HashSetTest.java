@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /**
- * Created by sunchao on 2018/8/2.
+ * Created by Batman on 2018/8/2.
  */
 public class HashSetTest {
     public static void main(String[] args) {

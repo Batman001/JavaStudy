@@ -3,7 +3,7 @@ package com.company.caini.GUI;
 import javax.swing.*;
 
 /**
- * Created by sunchao on 2018/11/5.
+ * Created by Batman on 2018/11/5.
  * 滚动条的面板
  */
 public class JScrollPanelTest {

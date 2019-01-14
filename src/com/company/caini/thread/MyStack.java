@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/10/15.
- * @author sunchao
+ * Created by Batman on 2018/10/15.
+ * @author Batman
  */
 public class MyStack {
     /**

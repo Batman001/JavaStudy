@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2019/1/3.
+ * Created by Batman on 2019/1/3.
  * @author Batman
  */
 
@@ -31,7 +31,7 @@ public class InitialThread {
 
         final JLabel l = new JLabel();
 
-        ImageIcon i = new ImageIcon("/Users/sunchao/Desktop/shana.png");
+        ImageIcon i = new ImageIcon("/Users/Batman/Desktop/shana.png");
         l.setIcon(i);
         l.setBounds(50, 50, i.getIconWidth(), i.getIconHeight());
 

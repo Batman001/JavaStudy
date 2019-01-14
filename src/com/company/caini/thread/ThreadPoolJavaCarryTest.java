@@ -5,8 +5,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by sunchao on 2018/10/17.
- * @author sunchao
+ * Created by Batman on 2018/10/17.
+ * @author Batman
  */
 public class ThreadPoolJavaCarryTest {
     public static void main(String[] args) throws InterruptedException {

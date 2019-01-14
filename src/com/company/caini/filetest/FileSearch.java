@@ -6,13 +6,13 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by sunchao on 2018/10/9.
- * @author sunchao
+ * Created by Batman on 2018/10/9.
+ * @author Batman
  */
 public class FileSearch {
 
     /**
-     * @author sunchao
+     * @author Batman
      * @param file  查找的目录
      * @param search  查找的字符串
      */
@@ -52,7 +52,7 @@ public class FileSearch {
     }
 
     public static void main(String[] args) {
-        File folder = new File("/Users/sunchao/JavaProjects/JavaStudy");
+        File folder = new File("/Users/Batman/JavaProjects/JavaStudy");
         search(folder, "fuck");
 
     }

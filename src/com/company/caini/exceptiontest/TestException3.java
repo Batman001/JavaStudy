@@ -2,7 +2,7 @@ package com.company.caini.exceptiontest;
 import java.io.File;
 import java.io.FileInputStream;
 /**
- * Created by sunchao on 2018/7/26.
+ * Created by Batman on 2018/7/26.
  */
 public class TestException3 {
     public static void main(String[] args) {

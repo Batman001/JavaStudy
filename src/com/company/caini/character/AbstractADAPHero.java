@@ -1,8 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/7/2.
- * @author sunchao
+ * Created on 2018/7/2.
+ * @author Batman
  */
 public class AbstractADAPHero extends AbstractHero {
 

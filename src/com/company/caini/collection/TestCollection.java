@@ -5,7 +5,7 @@ import com.company.caini.character.Hero;
 import java.util.ArrayList;
 
 /**
- * Created by sunchao on 2018/7/31.
+ * Created by Batman on 2018/7/31.
  */
 public class TestCollection {
     @SuppressWarnings("rawtypes")

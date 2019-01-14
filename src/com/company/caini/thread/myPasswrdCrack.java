@@ -3,8 +3,8 @@ package com.company.caini.thread;
 import java.util.Random;
 
 /**
- * Created by sunchao on 2018/10/12.
- * @author sunchao
+ * Created by Batman on 2018/10/12.
+ * @author Batman
  */
 public class myPasswrdCrack extends Thread {
     private String pswd;

@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/12.
+ * Created by Batman on 2018/11/12.
  * 练习  为空判断
  */
 public class IsNullJudge {

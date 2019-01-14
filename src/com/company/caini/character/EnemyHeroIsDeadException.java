@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/7/26.
+ * Created on 2018/7/26.
+ * @author Batman
  */
 public class EnemyHeroIsDeadException extends Exception {
     public EnemyHeroIsDeadException(){}

@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 
 /**
- * Created by sunchao on 2018/11/12.
+ * Created by Batman on 2018/11/12.
  * 练习 账号-密码验证
  */
 public class AccountPaswdVarify {

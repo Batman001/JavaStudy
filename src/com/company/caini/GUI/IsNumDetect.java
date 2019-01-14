@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by sunchao on 2018/11/12.
+ * Created by Batman on 2018/11/12.
  * 练习 判断文本框中是否有数字判断
  */
 public class IsNumDetect {

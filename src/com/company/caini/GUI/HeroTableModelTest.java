@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 对HeroTableModel进行展示用
  */
 public class HeroTableModelTest {

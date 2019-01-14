@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/14.
+ * Created by Batman on 2018/11/14.
  * table初始化后,应该默认选中第一行
  * 增加数据后,也应该选中增加的这一条
  */

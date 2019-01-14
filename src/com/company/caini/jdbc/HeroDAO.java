@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/10/25.
+ * Created by Batman on 2018/10/25.
  * @author Batman
  * 设计类HeroDAO，实现接口DAO
  * 主要功能是获取数据库中关于JDBCHero的相关数据功能类

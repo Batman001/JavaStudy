@@ -4,8 +4,8 @@ package com.company.caini.thread;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by sunchao on 2018/10/9.
- * @author sunchao
+ * Created by Batman on 2018/10/9.
+ * @author Batman
  */
 public class TestThread {
 

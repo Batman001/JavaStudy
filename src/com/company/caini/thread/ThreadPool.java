@@ -3,8 +3,8 @@ package com.company.caini.thread;
 import java.util.LinkedList;
 
 /**
- * Created by sunchao on 2018/10/17.
- * @author sunchao
+ * Created by Batman on 2018/10/17.
+ * @author Batman
  */
 public class ThreadPool {
     /**

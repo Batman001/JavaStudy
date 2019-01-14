@@ -1,7 +1,7 @@
 package com.company.caini.stream;
 import java.util.Scanner;
 /**
- * Created by sunchao on 2018/7/31.
+ * Created by Batman on 2018/7/31.
  */
 public class systemStream {
     public static void main(String[] args){

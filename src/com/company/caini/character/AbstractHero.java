@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/7/2.
+ * Created on 2018/7/2.
+ * @author Batman
  */
 public abstract class AbstractHero {
     String name;

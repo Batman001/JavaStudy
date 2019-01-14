@@ -3,7 +3,7 @@ package com.company.caini.stream;
 import java.io.*;
 import java.util.Scanner;
 /**
- * Created by sunchao on 2018/7/31.
+ * Created by Batman on 2018/7/31.
  */
 public class ExSystemIn {
     public static void main(String[] args){
@@ -20,8 +20,8 @@ public class ExSystemIn {
     }
 
     private static void getFile(String className, String type, String attName) {
-        File f1 = new File("/Users/sunchao/JavaProjects/JavaStudy/data/"+className+".java");
-        File f2 = new File("/Users/sunchao/JavaProjects/JavaStudy/data/"+className+".txt");
+        File f1 = new File("/Users/Batman/JavaProjects/JavaStudy/data/"+className+".java");
+        File f2 = new File("/Users/Batman/JavaProjects/JavaStudy/data/"+className+".txt");
 
         try(
                 FileReader fr = new FileReader(f2);

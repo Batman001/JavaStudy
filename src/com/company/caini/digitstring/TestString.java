@@ -5,7 +5,7 @@ import com.company.caini.character.Hero;
 import java.util.Locale;
 
 /**
- * Created by sunchao on 2018/7/4.
+ * Created by Batman on 2018/7/4.
  */
 public class TestString {
 

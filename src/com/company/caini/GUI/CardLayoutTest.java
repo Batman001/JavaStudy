@@ -6,7 +6,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 
 /**
- * Created by sunchao on 2018/11/5.
+ * Created by Batman on 2018/11/5.
  * 通过CardLayoutanel对面板进行切换
  */
 public class CardLayoutTest {

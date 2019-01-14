@@ -5,7 +5,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 /**
- * Created by sunchao on 2018/7/17.
+ * Created by Batman on 2018/7/17.
  */
 public class DateSort {
     public static long time(String s){

@@ -8,7 +8,7 @@ import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 通过table可以获取一个 TableSelectionModel，专门用于监听jtable选中项的变化
  */
 public class TableSelectionModel {

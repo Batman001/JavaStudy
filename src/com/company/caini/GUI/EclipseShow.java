@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.io.File;
 
 /**
- * Created by sunchao on 2018/11/12.
+ * Created by Batman on 2018/11/12.
  */
 public class EclipseShow {
     public static void main(String[] args) {
@@ -13,10 +13,10 @@ public class EclipseShow {
         f.setLocationRelativeTo(null);
         f.setLayout(null);
 
-        File folder = new File("/Users/sunchao/JavaProjects/JavaStudy/src/com/company/caini/GUI/");
+        File folder = new File("/Users/Batman/JavaProjects/JavaStudy/src/com/company/caini/GUI/");
         File[] fs = folder.listFiles();
         JTabbedPane tp = new JTabbedPane();
-        ImageIcon icon = new ImageIcon("/Users/sunchao/Desktop/test.jpg");
+        ImageIcon icon = new ImageIcon("/Users/Batman/Desktop/test.jpg");
         for(int i=0;i<fs.length;i++){
             JavaFilePane jfp = new JavaFilePane(fs[i]);
             tp.add(jfp);

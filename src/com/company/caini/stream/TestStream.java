@@ -4,11 +4,11 @@ package com.company.caini.stream;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/30.
+ * Created by Batman on 2018/7/30.
  */
 public class TestStream {
     public static void main(String[] args){
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/sunchaoInfo.txt");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/BatmanInfo.txt");
 
         try(
                 // 创建文件字符流
@@ -58,7 +58,7 @@ public class TestStream {
          */
         // 向桌面文件lol2.txt文件中写入三句话
         // File 创建时 如果指定目录里没有,java虚拟机会自动创建一个
-        File f1 = new File("/Users/sunchao/JavaProjects/JavaStudy/data/lol2.txt");
+        File f1 = new File("/Users/Batman/JavaProjects/JavaStudy/data/lol2.txt");
         try(
                 FileWriter fw = new FileWriter(f1);
                 PrintWriter pw = new PrintWriter(fw)

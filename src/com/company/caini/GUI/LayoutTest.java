@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/1.
+ * Created by Batman on 2018/11/1.
  * 绝对定位就是指不适用布局器,组件的位置和大小需要单独指定
  * FlowLayout顺序布局器,容器上组件水平摆放,加入到容器中即可,不需要指定大小和位置
  * BorderLayout组件按照 上北 下南 左西 右东 中 的顺序摆放

@@ -3,7 +3,7 @@ package com.company.caini.jdbc;
 import java.sql.*;
 
 /**
- * Created by sunchao on 2018/10/24.
+ * Created by Batman on 2018/10/24.
  * 根据ID返回一个对象
  * @author Batman
  */

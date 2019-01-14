@@ -1,7 +1,7 @@
 package com.company.caini.digitstring;
 import java.util.Random;
 /**
- * Created by sunchao on 2018/7/4.
+ * Created by Batman on 2018/7/4.
  */
 public class CombineTest {
     public static void main(String[] args) {

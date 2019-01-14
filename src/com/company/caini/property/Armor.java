@@ -1,7 +1,8 @@
 package com.company.caini.property;
 
 /**
- * Created by sunchao on 2018/7/2.
+ * Created on 2018/7/2.
+ * @author Batman
  */
 public class Armor extends Item {
 

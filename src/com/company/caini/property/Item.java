@@ -2,7 +2,8 @@ package com.company.caini.property;
 
 
 /**
- * Created by sunchao on 2018/6/28.
+ * Created on 2018/6/28.
+ * @author Batman
  */
 public abstract class Item {
     public String name;
@@ -25,10 +26,10 @@ public abstract class Item {
     public static void main(String[] args){
 
         // 多态的使用
-        /*
-        多态的条件
-        (1) 父类(接口)引用子类对象
-        (2) 调用方法有重写
+        /**
+         * 多态的条件
+         * (1) 父类(接口)引用子类对象
+         * (2) 调用方法有重写
          */
         Item i1 = new LifePotion();
         Item i2 = new MagicPotion();

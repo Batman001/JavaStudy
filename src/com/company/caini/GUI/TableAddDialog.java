@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/16.
+ * Created by Batman on 2018/11/16.
  * 点击增加按钮，出现一个JDialog，在JDialog中进行增加
  * 1. 首先把 htm和 table设计为静态，后面在更新表格数据的时候，就很容易访问这个两个对象
  * 2. 设计一个静态内部类 AddDialog用于显示增加的界面

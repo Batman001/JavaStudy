@@ -5,7 +5,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 /**
- * Created by sunchao on 2018/10/30.
+ * Created by Batman on 2018/10/30.
  * @author Batman
  */
 public class ClientChat {

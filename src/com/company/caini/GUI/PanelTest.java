@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/5.
+ * Created by Batman on 2018/11/5.
  * 创建一个水平JSplitPane，左边是pLeft,右边是pRight
  */
 public class PanelTest {

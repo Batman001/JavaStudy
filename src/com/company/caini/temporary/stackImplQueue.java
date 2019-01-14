@@ -3,8 +3,8 @@ package com.company.caini.temporary;
 import java.util.Stack;
 
 /**
- * Created by sunchao on 2018/10/22.
- * @author sunchao
+ * Created by Batman on 2018/10/22.
+ * @author Batman
  */
 public class stackImplQueue{
     private Stack<Integer> stack1 = new Stack<>();

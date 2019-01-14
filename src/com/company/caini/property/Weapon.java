@@ -1,7 +1,8 @@
 package com.company.caini.property;
 
 /**
- * Created by sunchao on 2018/6/27.
+ * Created on 2018/6/27.
+ * @author Batman
  */
 public class Weapon extends Item{
 

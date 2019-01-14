@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * Created by sunchao on 2018/8/2.
- * @author sunchao
+ * Created by Batman on 2018/8/2.
+ * @author Batman
  */
 public class Node {
     /**

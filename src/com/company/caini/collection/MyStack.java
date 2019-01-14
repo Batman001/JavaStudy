@@ -8,7 +8,7 @@ import java.util.LinkedList;
 
 
 /**
- * Created by sunchao on 2018/8/1.
+ * Created by Batman on 2018/8/1.
  */
 public class MyStack implements Stack {
 

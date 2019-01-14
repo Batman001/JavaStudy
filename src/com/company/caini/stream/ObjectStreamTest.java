@@ -5,11 +5,11 @@ import com.company.caini.character.Hero;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/30.
+ * Created by Batman on 2018/7/30.
  */
 public class ObjectStreamTest {
     public static void main(String[] args){
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/HeroSerial.lol");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/HeroSerial.lol");
         try(
                 FileOutputStream fos = new FileOutputStream(f);
                 ObjectOutputStream oos = new ObjectOutputStream(fos);

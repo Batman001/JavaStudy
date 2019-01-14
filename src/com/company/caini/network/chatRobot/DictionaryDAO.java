@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/10/30.
+ * Created by Batman on 2018/10/30.
  * @author Batman
  */
 public class DictionaryDAO {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/10/26.
+ * Created by Batman on 2018/10/26.
  */
 public class TestConnectionPoolAndTraditionConnection {
     private static int threadNumber = 100;

@@ -1,7 +1,7 @@
 package com.company.caini.filetest;
 import java.io.File;
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class FileTest {
     File f;
@@ -43,7 +43,7 @@ public class FileTest {
 
 
     public static void main(String[] args){
-        String filepath = "/Users/sunchao/Movies";
+        String filepath = "/Users/Batman/Movies";
         File test = new File(filepath);
         FileTest ft = new FileTest(test);
         ft.find(test);

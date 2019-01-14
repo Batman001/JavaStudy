@@ -3,9 +3,10 @@ package com.company.caini.array;
 import java.util.Scanner;
 
 /**
- * Created by sunchao on 2018/5/15.
+ * Created on 2018/5/15.
+ * @author Batman
  */
-public class cycliTest {
+public class CycliTest {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         System.out.println("请输入您的身高(m):");

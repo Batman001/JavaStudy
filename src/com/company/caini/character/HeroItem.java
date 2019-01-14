@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/8/1.
+ * Created on 2018/8/1.
+ * @author Batman
  */
 public interface HeroItem {
     public void showId();

@@ -3,7 +3,7 @@ package com.company.caini.digitstring;
 import org.jetbrains.annotations.Contract;
 
 /**
- * Created by sunchao on 2018/7/5.
+ * Created by Batman on 2018/7/5.
  */
 public class Password {
     private String passwrd;

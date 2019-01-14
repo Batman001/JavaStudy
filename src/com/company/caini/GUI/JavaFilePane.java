@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by sunchao on 2018/11/12.
+ * Created by Batman on 2018/11/12.
  */
 public class JavaFilePane extends JPanel {
 
@@ -37,7 +37,7 @@ public class JavaFilePane extends JPanel {
         JFrame f = new JFrame("Eclipse");
         f.setSize(400, 300);
         f.setContentPane(new JavaFilePane(new File(
-                "/Users/sunchao/JavaProjects/JavaStudy/src/com/company/caini/GUI/JavaFilePane.java")));
+                "/Users/Batman/JavaProjects/JavaStudy/src/com/company/caini/GUI/JavaFilePane.java")));
         f.setVisible(true);
 
     }

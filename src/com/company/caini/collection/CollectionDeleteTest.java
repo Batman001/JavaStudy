@@ -5,12 +5,10 @@ import com.company.caini.character.Hero;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Created by sunchao on 2018/8/1.
+ * Created on 2018/8/1
+ * @author Batman
  */
 
-/**
- * @author sunchao
- */
 public class CollectionDeleteTest {
     public static void main(String[] args) {
         List<Hero> heros = new ArrayList<>();

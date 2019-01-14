@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/5.
+ * Created by Batman on 2018/11/5.
  * 分页按钮面板
  */
 public class TabbedPanelTest {
@@ -47,7 +47,7 @@ public class TabbedPanelTest {
         tp.setTitleAt(0, "红色的Tab");
         tp.setTitleAt(1, "蓝色的Tab");
 
-        ImageIcon i = new ImageIcon("/Users/sunchao/Desktop/shana.png");
+        ImageIcon i = new ImageIcon("/Users/Batman/Desktop/shana.png");
         tp.setIconAt(0, i);
         tp.setIconAt(1, i);
 

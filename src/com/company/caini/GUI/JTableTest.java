@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 使用SWING JTable详解
  */
 public class JTableTest {

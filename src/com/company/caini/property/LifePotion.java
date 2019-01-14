@@ -1,7 +1,7 @@
 package com.company.caini.property;
 
 /**
- * Created by sunchao on 2018/6/28.
+ * Created by Batman on 2018/6/28.
  */
 public class LifePotion extends Item {
 

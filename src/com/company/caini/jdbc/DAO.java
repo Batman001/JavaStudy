@@ -2,7 +2,7 @@ package com.company.caini.jdbc;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/10/25.
+ * Created by Batman on 2018/10/25.
  * @author Batman
  */
 public interface DAO {

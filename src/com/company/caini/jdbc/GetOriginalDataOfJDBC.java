@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.ResultSet;
 /**
- * Created by sunchao on 2018/10/23.
+ * Created by Batman on 2018/10/23.
  * @author Batman
  */
 public class GetOriginalDataOfJDBC {

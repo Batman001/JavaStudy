@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/14.
+ * Created by Batman on 2018/11/14.
  * 更新Table
  * 以新增数据到数据库中，然后更新Table为例
  */

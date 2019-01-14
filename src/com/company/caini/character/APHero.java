@@ -3,7 +3,8 @@ package com.company.caini.character;
 import com.company.caini.property.Mortal;
 
 /**
- * Created by sunchao on 2018/6/28.
+ * Created on 2018/6/28.
+ * @author Batman
  */
 public class APHero extends Hero implements AP,Mortal{
     public APHero(String heroName, float heroHp) {

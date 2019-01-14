@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 显示文件夹复制进度条
  */
 public class FileCopyProgressBar {
@@ -46,11 +46,11 @@ public class FileCopyProgressBar {
         // 文件地址
         JLabel lSrc = new JLabel("源文件地址:");
         JTextField srcTf = new JTextField("");
-        srcTf.setText("/Users/sunchao/JavaProjects/JavaStudy/");
+        srcTf.setText("/Users/Batman/JavaProjects/JavaStudy/");
         srcTf.setPreferredSize(new Dimension(100, 30));
         JLabel lDest = new JLabel("复制到:");
         JTextField destTf = new JTextField("");
-        destTf.setText("/Users/sunchao/Desktop/java/");
+        destTf.setText("/Users/Batman/Desktop/java/");
         destTf.setPreferredSize(new Dimension(100, 30));
 
         f.add(lSrc);

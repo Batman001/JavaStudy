@@ -5,7 +5,7 @@ import com.company.caini.character.Hero;
 import java.util.LinkedList;
 
 /**
- * Created by sunchao on 2018/10/9.
+ * Created by Batman on 2018/10/9.
  */
 public class HeroStack {
 

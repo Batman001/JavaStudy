@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * SWING如何使用工具栏JToolBar
  * 工具栏用于存储常用的按钮
  */
@@ -20,12 +20,12 @@ public class ToolBarTest {
         // 工具栏
         JToolBar tb = new JToolBar();
         // 为工具栏增加按钮
-        JButton b1 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/1.jpg"));
-        JButton b2 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/2.jpg"));
-        JButton b3 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/3.jpg"));
-        JButton b4 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/4.jpg"));
-        JButton b5 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/5.jpg"));
-        JButton b6 = new JButton(new ImageIcon("/Users/sunchao/JavaProjects/JavaStudy/images/6.jpg"));
+        JButton b1 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/1.jpg"));
+        JButton b2 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/2.jpg"));
+        JButton b3 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/3.jpg"));
+        JButton b4 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/4.jpg"));
+        JButton b5 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/5.jpg"));
+        JButton b6 = new JButton(new ImageIcon("/Users/Batman/JavaProjects/JavaStudy/images/6.jpg"));
 
         // 给按钮设置提示信息
         b1.setToolTipText("坑爹英雄");

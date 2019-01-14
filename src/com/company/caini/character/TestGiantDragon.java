@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/6/27.
+ * Created on 2018/6/27.
+ * @author Batman
  */
 public class TestGiantDragon {
     public static void main(String[] args){

@@ -1,7 +1,7 @@
 package com.company.caini.jdbc;
 
 /**
- * Created by sunchao on 2018/10/24.
+ * Created by Batman on 2018/10/24.
  * @author Batman
  */
 public class JDBCHero {

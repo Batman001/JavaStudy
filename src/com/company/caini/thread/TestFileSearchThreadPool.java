@@ -8,9 +8,9 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by sunchao on 2018/10/17.
+ * Created by Batman on 2018/10/17.
  * 借助线程池同步查找文件内容
- * @author sunchao
+ * @author Batman
  */
 public class TestFileSearchThreadPool {
 
@@ -57,7 +57,7 @@ public class TestFileSearchThreadPool {
 
     public static void main(String[] args) {
 
-        File file = new File("/Users/sunchao/JavaProjects/JavaStudy");
+        File file = new File("/Users/Batman/JavaProjects/JavaStudy");
         String search = "attack";
         TestFileSearchThreadPool ts = new TestFileSearchThreadPool(file, search);
         ts.search(file, search);

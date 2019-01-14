@@ -4,7 +4,7 @@ import com.company.caini.jdbc.HeroDAO;
 import com.company.caini.jdbc.JDBCHero;
 
 /**
- * Created by sunchao on 2018/10/26.
+ * Created on 2018/10/26.
  * @author Batman
  * Wrong Code
  */

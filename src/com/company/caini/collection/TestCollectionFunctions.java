@@ -3,7 +3,7 @@ package com.company.caini.collection;
 import java.util.*;
 
 /**
- * Created by sunchao on 2018/8/3.
+ * Created by Batman on 2018/8/3.
  */
 public class TestCollectionFunctions {
     public static void main(String[] args) {

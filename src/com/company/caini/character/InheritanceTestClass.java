@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/6/25.
+ * Created on 2018/6/25.
+ * @author Batman
  */
 
 /**
@@ -26,10 +27,7 @@ class Item extends Armor{
     int ac;
 }
 
-/**
- * @author sunchao
- */
-public class InheritanceTestClass {
+class InheritanceTestClass {
     public static void main(String[] args){
         Item bujia = new Item();
         bujia.name = "布甲";

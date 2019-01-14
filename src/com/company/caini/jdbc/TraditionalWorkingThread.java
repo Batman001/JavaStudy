@@ -3,7 +3,7 @@ package com.company.caini.jdbc;
 import java.sql.*;
 
 /**
- * Created by sunchao on 2018/10/26.
+ * Created by Batman on 2018/10/26.
  */
 public class TraditionalWorkingThread extends Thread {
     @Override

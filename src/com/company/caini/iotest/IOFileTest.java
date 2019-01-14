@@ -3,13 +3,13 @@ package com.company.caini.iotest;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/31.
+ * Created by Batman on 2018/7/31.
  */
 public class IOFileTest {
     public static void main(String[] args){
-        //copyFile("/Users/sunchao/JavaProjects/JavaStudy/data/Dog.txt", "/Users/sunchao/JavaProjects/JavaStudy/data/cat.txt");
-        //copyFolder("/Users/sunchao/Desktop/ACL_titles_abstracts_dataset-master", "/Users/sunchao/JavaProjects/JavaStudy/data/test");
-        searchStrOfFolder("垃圾回收机制", "/Users/sunchao/JavaProjects/JavaStudy/data/");
+        //copyFile("/Users/Batman/JavaProjects/JavaStudy/data/Dog.txt", "/Users/Batman/JavaProjects/JavaStudy/data/cat.txt");
+        //copyFolder("/Users/Batman/Desktop/ACL_titles_abstracts_dataset-master", "/Users/Batman/JavaProjects/JavaStudy/data/test");
+        searchStrOfFolder("垃圾回收机制", "/Users/Batman/JavaProjects/JavaStudy/data/");
 
     }
 

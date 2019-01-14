@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Connection;
 
 /**
- * Created by sunchao on 2018/10/23.
+ * Created by Batman on 2018/10/23.
  * @author Batman
  */
 public class transactionTest {

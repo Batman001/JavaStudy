@@ -3,8 +3,8 @@ package com.company.caini.collection;
 import java.util.*;
 
 /**
- * Created by sunchao on 2018/8/3.
- * @author sunchao
+ * Created by Batman on 2018/8/3.
+ * @author Batman
  */
 public class HashSet<E> extends AbstractSet<E> implements Set<E>,Cloneable,java.io.Serializable {
 

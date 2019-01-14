@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/19.
+ * Created by Batman on 2018/11/19.
  */
 public class TableAddEdit {
     static HeroTableModel htm = new HeroTableModel();

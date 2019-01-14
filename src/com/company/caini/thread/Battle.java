@@ -1,8 +1,8 @@
 package com.company.caini.thread;
 
 /**
- * Created by sunchao on 2018/10/9.
- * @author sunchao
+ * Created by Batman on 2018/10/9.
+ * @author Batman
  */
 public class Battle implements Runnable{
     private MyHero attack;

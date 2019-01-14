@@ -3,8 +3,8 @@ package com.company.caini.character;
 import com.company.caini.property.Mortal;
 
 /**
- * Created by sunchao on 2018/6/28.
- * @author sunchao
+ * Created on 2018/6/28.
+ * @author Batman
  */
 public class ADAPHero extends Hero implements AD,AP,Mortal {
 

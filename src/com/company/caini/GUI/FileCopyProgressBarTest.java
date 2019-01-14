@@ -49,11 +49,11 @@ public class FileCopyProgressBarTest{
         // 文件源地址
         JLabel lSrc = new JLabel("原文件地址:");
         JTextField tfSrc = new JTextField("");
-        tfSrc.setText("/Users/sunchao/JavaProjects/JavaStudy/");
+        tfSrc.setText("/Users/Batman/JavaProjects/JavaStudy/");
         tfSrc.setPreferredSize(new Dimension(100, 30));
         JLabel lDest = new JLabel("复制到:");
         JTextField tfDest = new JTextField("");
-        tfDest.setText("/Users/sunchao/Desktop/JavaTest");
+        tfDest.setText("/Users/Batman/Desktop/JavaTest");
         tfDest.setPreferredSize(new Dimension(100, 30));
 
         f.add(lSrc);

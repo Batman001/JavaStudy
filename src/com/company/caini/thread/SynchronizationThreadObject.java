@@ -4,8 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by sunchao on 2018/10/12.
- * @author sunchao
+ * Created by Batman on 2018/10/12.
+ * @author Batman
  */
 public class SynchronizationThreadObject {
     public static void main(String[] args) {

@@ -2,9 +2,10 @@ package com.company.caini.array;
 import java.util.Arrays;
 
 /**
- * Created by sunchao on 2018/6/25.
+ * Created on 2018/6/25.
+ * @author Batman
  */
-public class array625Test {
+public class Array625Test {
     public static void main(String[] args){
         int [][] f = new int[5][8];
         for(int i =0;i<f.length;i++){
@@ -43,10 +44,10 @@ public class array625Test {
         return sortedTwoArrays;
     }
 
-   /*
-    打印二维数组方法
-     */
 
+    /**
+     * 打印二维数组方法
+     */
     public static void printTwoArrays(int [][] arr){
         for (int i=0; i<arr.length; i++){
             for (int j=0; j<arr[i].length; j++){

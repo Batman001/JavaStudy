@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 
 /**
- * Created by sunchao on 2018/11/5.
+ * Created by Batman on 2018/11/5.
  */
 public class ComponentFileChooserTest {
     public static void main(String[] args) {

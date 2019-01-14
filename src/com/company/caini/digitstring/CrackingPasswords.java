@@ -1,7 +1,7 @@
 package com.company.caini.digitstring;
 import java.lang.String;
 /**
- * Created by sunchao on 2018/7/5.
+ * Created by Batman on 2018/7/5.
  */
 public class CrackingPasswords {
     public static void main(String[] args){

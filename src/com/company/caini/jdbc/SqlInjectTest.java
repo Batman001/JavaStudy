@@ -3,7 +3,7 @@ package com.company.caini.jdbc;
 import java.sql.*;
 
 /**
- * Created by sunchao on 2018/10/23.
+ * Created by Batman on 2018/10/23.
  */
 public class SqlInjectTest {
     public static void main(String[] args) {

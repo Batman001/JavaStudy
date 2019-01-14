@@ -2,16 +2,16 @@ package com.company.caini.filetest;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class SplitMergeFile {
     private static final int KBNUMBER=100;
     public static void main(String[] args){
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/testMusic.mp3");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/testMusic.mp3");
         splitFile(f);
         //System.out.println(f.getName().substring(0,f.getName().lastIndexOf(".")));
         //System.out.println(f.getName().substring(f.getName().lastIndexOf("."), f.getName().length()));
-        File mf = new File("/Users/sunchao/JavaProjects/JavaStudy/datasplitFile");
+        File mf = new File("/Users/Batman/JavaProjects/JavaStudy/datasplitFile");
         merge(mf);
     }
 

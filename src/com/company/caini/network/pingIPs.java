@@ -7,7 +7,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 /**
- * Created by sunchao on 2018/10/29.
+ * Created by Batman on 2018/10/29.
  * 判断本网段有多少可用的ip地址
  * @author Batman
  */

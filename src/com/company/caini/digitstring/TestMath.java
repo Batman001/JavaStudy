@@ -3,7 +3,7 @@ import java.lang.Math;
 
 
 /**
- * Created by sunchao on 2018/7/4.
+ * Created by Batman on 2018/7/4.
  */
 public class TestMath {
 

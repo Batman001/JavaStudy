@@ -3,12 +3,12 @@ package com.company.caini.filetest;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/27.
+ * Created by Batman on 2018/7/27.
  */
 public class TestStream {
     public static void main(String[] args){
         try{
-            File f = new File("/Users/sunchao/Desktop/sunchaoInfo.txt");
+            File f = new File("/Users/Batman/Desktop/BatmanInfo.txt");
             // 创建基于文件的输入流
             FileInputStream fis = new FileInputStream(f);
             FileOutputStream fos = new FileOutputStream(f);

@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 
 /**
- * Created by sunchao on 2018/10/30.
+ * Created by Batman on 2018/10/30.
  * @author Batman
  * 创建一个匿名类实现ActionListener接口,当按钮被点击时,actionPerformed方法就会被调用
  */
@@ -16,7 +16,7 @@ public class ActionListenerTest {
         f.setLayout(null);
 
         final JLabel l = new JLabel();
-        ImageIcon i = new ImageIcon("/Users/sunchao/Desktop/shana.png");
+        ImageIcon i = new ImageIcon("/Users/Batman/Desktop/shana.png");
         l.setIcon(i);
         l.setBounds(50, 50, i.getIconWidth(), i.getIconHeight());
 

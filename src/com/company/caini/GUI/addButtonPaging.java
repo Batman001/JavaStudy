@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/20.
+ * Created by Batman on 2018/11/20.
  * @author Batman
  * 使用按钮进行分页
  * 在table中仅仅显示10条数据。

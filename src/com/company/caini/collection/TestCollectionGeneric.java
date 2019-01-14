@@ -12,7 +12,7 @@ import java.util.List;
 不指定泛型的容器,可以存放任何类型的元素
  */
 /**
- * Created by sunchao on 2018/8/1.
+ * Created by Batman on 2018/8/1.
  */
 public class TestCollectionGeneric {
     public static void main(String[] args){

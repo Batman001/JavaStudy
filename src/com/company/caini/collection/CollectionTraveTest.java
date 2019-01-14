@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 /**
- * Created by sunchao on 2018/8/1.
+ * Created on 2018/8/1.
+ * @author Batman
  */
 public class CollectionTraveTest {
     public static void main(String[] args) {

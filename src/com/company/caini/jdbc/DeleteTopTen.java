@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 /**
- * Created by sunchao on 2018/10/23.
+ * Created by Batman on 2018/10/23.
  * @author Batman
  */
 public class DeleteTopTen {

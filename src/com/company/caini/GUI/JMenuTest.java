@@ -3,7 +3,7 @@ package com.company.caini.GUI;
 import javax.swing.*;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 如何在swing中使用菜单JMenu
  */
 public class JMenuTest {

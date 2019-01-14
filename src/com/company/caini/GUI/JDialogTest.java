@@ -3,7 +3,7 @@ package com.company.caini.GUI;
 import javax.swing.*;
 
 /**
- * Created by sunchao on 2018/11/1.
+ * Created by Batman on 2018/11/1.
  * 当一个对话框设置为模态的时候,其背后的父窗体,是不能被激活的,除非该对话框被关闭
  */
 public class JDialogTest {

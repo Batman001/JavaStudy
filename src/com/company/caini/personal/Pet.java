@@ -1,7 +1,7 @@
 package com.company.caini.personal;
 
 /**
- * Created by sunchao on 2018/7/3.
+ * Created by Batman on 2018/7/3.
  */
 public interface Pet {
 

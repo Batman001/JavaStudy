@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 
 /**
- * Created by sunchao on 2018/11/14.
+ * Created by Batman on 2018/11/14.
  * 本例使用 包swingx-core-1.6.2.jar，界面比较简约，可以设置日期
  */
 public class JXDatePickerTest {

@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/10/26.
+ * Created by Batman on 2018/10/26.
  * @author Batman
  */
 public class TestGui {
@@ -21,7 +21,7 @@ public class TestGui {
         f.setSize(800, 600);
 
         //从文件中获取坐标
-        File zuobiao = new File("/Users/sunchao/JavaProjects/JavaStudy/data/lolconfig.txt");
+        File zuobiao = new File("/Users/Batman/JavaProjects/JavaStudy/data/lolconfig.txt");
 
         if(zuobiao.exists()){
             try {
@@ -68,7 +68,7 @@ public class TestGui {
                     Integer y = f.getY();
 
                     //要保存的地址
-                    File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/lolconfig.txt");
+                    File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/lolconfig.txt");
 
                     FileWriter fw;
                     try {

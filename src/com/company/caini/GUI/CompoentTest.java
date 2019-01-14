@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by sunchao on 2018/11/1.
+ * Created by Batman on 2018/11/1.
  */
 public class CompoentTest {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class CompoentTest {
          */
 //        JLabel l = new JLabel();
 //        // 根据图片创建ImageIcon对象
-//        ImageIcon i = new ImageIcon("/Users/sunchao/Desktop/shana.png");
+//        ImageIcon i = new ImageIcon("/Users/Batman/Desktop/shana.png");
 //        // 设置ImageIcon
 //        l.setIcon(i);
 //        l.setBounds(50, 50, i.getIconWidth(), i.getIconHeight());

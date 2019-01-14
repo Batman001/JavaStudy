@@ -6,7 +6,7 @@ import java.awt.event.MouseEvent;
 import java.util.Random;
 
 /**
- * Created by sunchao on 2018/11/1.
+ * Created by Batman on 2018/11/1.
  * @author Batman
  */
 public class MouseAdapterTest {
@@ -19,7 +19,7 @@ public class MouseAdapterTest {
 
         final JLabel l = new JLabel("");
 
-        ImageIcon i = new ImageIcon("/Users/sunchao/Desktop/shana.png");
+        ImageIcon i = new ImageIcon("/Users/Batman/Desktop/shana.png");
         l.setIcon(i);
         l.setBounds(375, 275, i.getIconWidth(), i.getIconHeight());
 

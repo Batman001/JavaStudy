@@ -7,14 +7,14 @@ import com.company.caini.property.LifePotion;
 import java.util.LinkedList;
 
 /**
- * Created by sunchao on 2018/10/9.
+ * Created by Batman on 2018/10/9.
  */
 
 /**
  * MyStack 支持泛型的类
  * 设计该类的时候,在类的声明中加上<T>,表示该类支持的类型
  * @param <T> <T>T是Type的缩写,表示支持的泛型
- * @author sunchao
+ * @author Batman
  */
 public class MyStack<T> {
 

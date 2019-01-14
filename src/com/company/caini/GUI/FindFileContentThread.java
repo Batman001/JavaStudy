@@ -9,7 +9,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Created by sunchao on 2019/1/3.
+ * Created by Batman on 2019/1/3.
  * @author Batman
  * 参考 练习-查找文件内容中的做法，使用swing来完成这个功能。
  * 查找文件内容本身是一个比较耗时的任务，采用长耗时任务线程的手段，开发这个功能。
@@ -23,7 +23,7 @@ public class FindFileContentThread {
         JLabel lLocation = new JLabel("查询目录");
         JLabel lSearch = new JLabel("文件内容");
 
-        JTextField tfLocation = new JTextField("/Users/sunchao/JavaProjects");
+        JTextField tfLocation = new JTextField("/Users/Batman/JavaProjects");
         JTextField tfSearch = new JTextField("java");
         JButton bSubmit = new JButton("搜索");
 
@@ -63,7 +63,7 @@ public class FindFileContentThread {
             this.add(pInput);
             this.add(pSubmit);
 
-            this.setSize(300, 200);
+            this.setSize(800, 700);
             this.setLocationRelativeTo(null);
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

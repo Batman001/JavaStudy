@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileInputStream;
 
 /**
- * Created by sunchao on 2018/7/26.
+ * Created by Batman on 2018/7/26.
  */
 public class TestException2 {
     public static void main(String[] args){
@@ -11,7 +11,7 @@ public class TestException2 {
         // OutOfMemoryError 耗光内存
 //        for(int i=0;i<Integer.MAX_VALUE;i++){
 //            sb.append("a");
-        File f = new File("/Users/sunchao/Desktop/personInfo.tx");
+        File f = new File("/Users/Batman/Desktop/personInfo.tx");
         try{
             new FileInputStream(f);
         }

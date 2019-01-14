@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 /**
- * Created by sunchao on 2018/8/3.
+ * Created on 2018/8/3.
+ * @author Batman
  */
 public class DupStringTestOfHashSet {
     public static void main(String[] args) {

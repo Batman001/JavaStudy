@@ -1,7 +1,7 @@
 package com.company.caini.collection;
 
 /**
- * Created by sunchao on 2018/8/1.
+ * Created by Batman on 2018/8/1.
  */
 public interface IStringBuffer {
     public void append(String str);

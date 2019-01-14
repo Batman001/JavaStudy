@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/8/2.
- * @author sunchao
+ * Created  on 2018/8/2.
+ * @author Batman
  */
 public class HashMapSearch {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.awt.*;
 import java.sql.SQLException;
 
 /**
- * Created by sunchao on 2018/11/13.
+ * Created by Batman on 2018/11/13.
  * 设计一个线程，每隔100毫秒，就把进度条的进度+1。
  * 从0%一直加到100%
  * 刚开始加的比较快，以每隔100毫秒的速度增加，随着进度的增加，越加越慢，让处女座的使用者，干着急

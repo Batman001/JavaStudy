@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.Locale;
 
 /**
- * Created by sunchao on 2018/11/14.
+ * Created by Batman on 2018/11/14.
  * 本例使用 datepicker.jar 包，有一个缺点，不能设置时间，只能在创建控件的时候传入指定日期。
  * 需要设置日期，请使用JXDatePicker
  */

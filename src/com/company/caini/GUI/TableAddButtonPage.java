@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/26.
+ * Created by Batman on 2018/11/26.
  * 练习-使用按钮分页
  */
 public class TableAddButtonPage {

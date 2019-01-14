@@ -7,8 +7,8 @@ import javax.swing.table.AbstractTableModel;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/11/13.
- * @author sunchao
+ * Created by Batman on 2018/11/13.
+ * @author Batman
  * 提供一个table显示需要的所有信息
  * TableModel，就用于存放要显示的数据
  * 将数据与展示进行分开存放

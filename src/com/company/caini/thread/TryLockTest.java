@@ -7,8 +7,8 @@ import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.Lock;
 
 /**
- * Created by sunchao on 2018/10/19.
- * @author sunchao
+ * Created by Batman on 2018/10/19.
+ * @author Batman
  */
 public class TryLockTest {
 

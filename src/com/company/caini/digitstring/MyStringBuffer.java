@@ -3,7 +3,7 @@ package com.company.caini.digitstring;
 import java.util.Arrays;
 
 /**
- * Created by sunchao on 2018/7/6.
+ * Created by Batman on 2018/7/6.
  */
 public class MyStringBuffer implements IStringBuffer {
     int capacity = 16;

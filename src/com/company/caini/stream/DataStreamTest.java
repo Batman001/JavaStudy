@@ -3,12 +3,12 @@ package com.company.caini.stream;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/30.
+ * Created by Batman on 2018/7/30.
  */
 public class DataStreamTest {
     public static void main(String[] args){
         // 缓存流式处理
-        File f1 = new File("/Users/sunchao/JavaProjects/JavaStudy/data/1.txt");
+        File f1 = new File("/Users/Batman/JavaProjects/JavaStudy/data/1.txt");
         try{
             FileWriter fw = new FileWriter(f1);
             BufferedWriter bw = new BufferedWriter(fw);
@@ -36,7 +36,7 @@ public class DataStreamTest {
 
 
         // 数据流式处理
-        File f2 = new File("/Users/sunchao/JavaProjects/JavaStudy/data/2.txt");
+        File f2 = new File("/Users/Batman/JavaProjects/JavaStudy/data/2.txt");
         try{
             FileOutputStream fos= new FileOutputStream(f2);
             DataOutputStream dos = new DataOutputStream(fos);

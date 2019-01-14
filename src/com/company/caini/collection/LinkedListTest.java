@@ -5,7 +5,7 @@ import com.company.caini.character.Hero;
 import java.util.LinkedList;
 
 /**
- * Created by sunchao on 2018/8/1.
+ * Created by Batman on 2018/8/1.
  */
 public class LinkedListTest {
     public static void main(String[] args) {

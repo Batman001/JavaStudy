@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/19.
+ * Created by Batman on 2018/11/19.
  * @author Batman
  * 提供一个删除按钮，点击删除按钮之后，删除选中的行，并且刷新table中的数据，然后再默认选中第一行。
  * 如果点击删除的时候，没有任何行被选中，则提示“删除前应该选中一行”

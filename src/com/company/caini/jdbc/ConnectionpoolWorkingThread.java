@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- * Created by sunchao on 2018/10/26.
+ * Created by Batman on 2018/10/26.
  * @author Batman
  */
 public class ConnectionpoolWorkingThread extends Thread{

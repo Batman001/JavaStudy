@@ -1,7 +1,7 @@
 package com.company.caini.digitstring;
 
 /**
- * Created by sunchao on 2018/7/6.
+ * Created by Batman on 2018/7/6.
  */
 public class TestString3 {
     public static void main(String[] args){

@@ -1,7 +1,8 @@
 package com.company.caini.property;
 
 /**
- * Created by sunchao on 2018/6/28.
+ * Created on 2018/6/28.
+ * @author Batman
  */
 public class MagicPotion extends Item {
     @Override

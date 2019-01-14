@@ -1,7 +1,7 @@
 package com.company.caini.personal;
 import java.lang.String;
 /**
- * Created by sunchao on 2018/7/3.
+ * Created by Batman on 2018/7/3.
  */
 public abstract class Animal {
     public Animal(){}

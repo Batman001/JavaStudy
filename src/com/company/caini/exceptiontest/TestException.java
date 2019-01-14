@@ -8,11 +8,11 @@ import java.util.Date;
 
 
 /**
- * Created by sunchao on 2018/7/26.
+ * Created by Batman on 2018/7/26.
  */
 public class TestException {
     public static void main(String[] args) throws FileNotFoundException{
-        File f = new File("/Users/sunchao/Desktop/personInfo");
+        File f = new File("/Users/Batman/Desktop/personInfo");
         try{
             System.out.println("尝试打开桌面文件");
             new FileInputStream(f);

@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by sunchao on 2018/11/1.
+ * Created by Batman on 2018/11/1.
  * 首先设计一个JFrame,上面有一个按钮,文字是"打开一个模态窗口"
  * 点击该按钮后,随即打开一个模态窗口
  * 这个模态窗口中有一个按钮,文本是"锁定大小",点击后,这个模态窗口的大小就被锁住,不能改变.再次点击,就恢复能够改变大小

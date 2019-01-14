@@ -1,7 +1,7 @@
 package com.company.caini.thread;
 
 /**
- * Created by sunchao on 2018/10/9.
+ * Created by Batman on 2018/10/9.
  * @author Batman
  */
 public class KillThread extends Thread {

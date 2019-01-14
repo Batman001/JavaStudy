@@ -13,9 +13,9 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Created by sunchao on 2018/11/14.
+ * Created by Batman on 2018/11/14.
  * 统计文件数量
- * 借助时间控件，选中一个时间，然后根据这个时间，统计/Users/sunchao/JavaProjects/JavaStudy
+ * 借助时间控件，选中一个时间，然后根据这个时间，统计/Users/Batman/JavaProjects/JavaStudy
  * 修改时间大于这个时间的文件，一共有多少
  */
 public class NumberOfStatisticalDocuments {
@@ -33,7 +33,7 @@ public class NumberOfStatisticalDocuments {
         JLabel lPath = new JLabel("统计文件路径为:");
 
         JTextField tf = new JTextField("");
-//        tf.setText("/Users/sunchao/JavaProjects/JavaStudy");
+//        tf.setText("/Users/Batman/JavaProjects/JavaStudy");
         tf.setPreferredSize(new Dimension(150, 30));
 
         JLabel lTime = new JLabel("统计文件时间为");

@@ -2,9 +2,10 @@ package com.company.caini.array;
 import java.util.Arrays;
 
 /**
- * Created by sunchao on 2018/5/16.
+ * Created on 2018/5/16.
+ * @author Batman
  */
-public class arraysUtilTest {
+public class ArraysUtilTest {
     public static void main(String[] args){
 
         int [] a = new int[] {1,32,5,-7,89,1000};
@@ -29,10 +30,10 @@ public class arraysUtilTest {
         Arrays.fill(e, 10);
         System.out.println(Arrays.toString(e));
 
-        /*
-        二维数组排序测试
-         */
 
+        /**
+         * 二维数组排序测试
+         */
         int [][] f = new int[5][8];
         for(int i =0;i<f.length;i++){
             for (int j=0; j<f[i].length; j++){
@@ -43,8 +44,8 @@ public class arraysUtilTest {
         System.out.println("未排序前二维数组为:");
         printTwoArrays(f);
 
-        /*
-        把二维数组复制出来并存储至一维数组
+        /**
+         * 把二维数组复制出来并存储至一维数组
          */
         System.out.println("二维数组展开为");
         int[] test = new int[40];
@@ -88,10 +89,9 @@ public class arraysUtilTest {
     }
 
 
-    /*
-    打印二维数组方法
+    /**
+     * 打印二维数组方法
      */
-
     public static void printTwoArrays(int [][] arr){
         for (int i=0; i<arr.length; i++){
             for (int j=0; j<arr[i].length; j++){

@@ -1,7 +1,8 @@
 package com.company.caini.character;
 
 /**
- * Created by sunchao on 2018/6/28.
+ * Created on 2018/6/28.
+ * @author Batman
  */
 public interface Healer {
     /**

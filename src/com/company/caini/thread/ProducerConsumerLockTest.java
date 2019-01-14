@@ -1,7 +1,7 @@
 package com.company.caini.thread;
 
 /**
- * Created by sunchao on 2018/10/19.
+ * Created by Batman on 2018/10/19.
  * @author Batman
  */
 public class ProducerConsumerLockTest {

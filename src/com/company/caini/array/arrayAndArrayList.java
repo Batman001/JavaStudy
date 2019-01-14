@@ -5,10 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by sunchao on 2018/11/30.
+ * Created on 2018/11/30.
  * @author Batman
  */
-public class arrayAndArrayList {
+public class ArrayAndArrayList {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
         list.add("BOB");

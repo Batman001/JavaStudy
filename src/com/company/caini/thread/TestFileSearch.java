@@ -1,8 +1,8 @@
 package com.company.caini.thread;
 import java.io.File;
 /**
- * Created by sunchao on 2018/10/9.
- * @author sunchao
+ * Created by Batman on 2018/10/9.
+ * @author Batman
  */
 public class TestFileSearch {
     public static void search(File file, String search){
@@ -21,7 +21,7 @@ public class TestFileSearch {
     }
 
     public static void main(String[] args) {
-        File folder = new File("/Users/sunchao/JavaProjects/JavaStudy");
+        File folder = new File("/Users/Batman/JavaProjects/JavaStudy");
         search(folder, "attack");
     }
 }

@@ -6,7 +6,7 @@ import java.io.InputStream;
 import java.net.Socket;
 
 /**
- * Created by sunchao on 2018/10/30.
+ * Created by Batman on 2018/10/30.
  */
 public class ReceiveThread extends Thread{
     private Socket s;

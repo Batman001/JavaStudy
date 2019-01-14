@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import static com.sun.tools.javac.util.Constants.format;
 
 /**
- * Created by sunchao on 2018/7/17.
+ * Created by Batman on 2018/7/17.
  */
 public class TestCalendar {
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");

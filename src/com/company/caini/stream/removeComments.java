@@ -3,12 +3,12 @@ package com.company.caini.stream;
 import java.io.*;
 
 /**
- * Created by sunchao on 2018/7/30.
+ * Created by Batman on 2018/7/30.
  */
 public class removeComments {
     public static void main(String[] args){
-        File f = new File("/Users/sunchao/JavaProjects/JavaStudy/data/Hero.java");
-        File afterf = new File("/Users/sunchao/JavaProjects/JavaStudy/data/AfterProcessedHero.java");
+        File f = new File("/Users/Batman/JavaProjects/JavaStudy/data/Hero.java");
+        File afterf = new File("/Users/Batman/JavaProjects/JavaStudy/data/AfterProcessedHero.java");
         String startStr = "//";
         try(
                 FileReader fr = new FileReader(f);

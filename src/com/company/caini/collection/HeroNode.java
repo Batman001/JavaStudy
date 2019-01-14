@@ -5,7 +5,7 @@ import com.company.caini.character.Hero;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * Created by sunchao on 2018/8/2.
+ * Created by Batman on 2018/8/2.
  */
 public class HeroNode {
     public HeroNode leftNode;
