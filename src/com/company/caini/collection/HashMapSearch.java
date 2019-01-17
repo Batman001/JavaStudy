@@ -26,7 +26,8 @@ public class HashMapSearch {
 
     }
 
-    private static void dumpSearchOfMap(List<Hero> heros, String s) {
+    /** 使用HashMap进行查找 查看效率*/
+    private static void dumpSearchOfMap(List<Hero> heros, String name) {
         long start = System.currentTimeMillis();
         HashMap<String,List<Hero>> m = new HashMap<>();
         // key:英雄名字  value:同一个名字的全部英雄组成的列表
@@ -39,13 +40,14 @@ public class HashMapSearch {
             currentList.add(h);
         }
 
-        List<Hero> result = m.get(s);
+        List<Hero> result = m.get(name);
         long end = System.currentTimeMillis();
         System.out.printf("通过HashMap一共查找到%d个英雄,共计耗时%d毫秒%n", result.size(), end-start);
 
 
     }
 
+    /** 使用迭代器进行查找 */
     private static void dumpSearchOfIteration(List<Hero> heros, String name) {
         long start = System.currentTimeMillis();
         List<Hero> result = new ArrayList<>();
