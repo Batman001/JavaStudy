@@ -4,6 +4,7 @@ package com.company.caini.character;
  * Created on 2018/6/27.
  * @author Batman
  * Singleton模式,指的是一个类,在一个JVM中,只有一个实例存在.
+ * 线程不安全
  */
 
 
@@ -40,5 +41,5 @@ public class GiantDragon {
  * 单例模式三要素
  * (1) 构造方法私有化
  * (2) 静态属性指向实例
- * (3) public staic getInstance方法 返回第二步静态属性指向实例
+ * (3) public static getInstance方法 返回第二步静态属性指向实例
  */

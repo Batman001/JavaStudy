@@ -1,1 +1,18 @@
 # Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.gitignore
+.idea/compiler.xml
+.idea/copyright/
+.idea/description.html
+.idea/encodings.xml
+.idea/groovyc.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/project-template.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+.vscode/
+"data/\346\212\200\346\234\257\345\210\233\346\226\260\344\270\255\345\277\203_\345\255\231\350\266\205.docx"
+lib/apache-log4j-1.2.17/examples/lf5/OpeningLogFiles/
