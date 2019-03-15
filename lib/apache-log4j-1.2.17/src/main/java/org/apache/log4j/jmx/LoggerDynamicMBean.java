@@ -120,7 +120,7 @@ public class LoggerDynamicMBean extends AbstractDynamicMBean
 
   public
   MBeanInfo getMBeanInfo() {
-    //cat.debug("getMBeanInfo called.");
+    //Cat.debug("getMBeanInfo called.");
 
     MBeanAttributeInfo[] attribs = new MBeanAttributeInfo[dAttributes.size()];
     dAttributes.toArray(attribs);
@@ -131,7 +131,7 @@ public class LoggerDynamicMBean extends AbstractDynamicMBean
 			 dConstructors,
 			 dOperations,
 			 new MBeanNotificationInfo[0]);
-    //cat.debug("getMBeanInfo exit.");
+    //Cat.debug("getMBeanInfo exit.");
     return mb;
   }
 

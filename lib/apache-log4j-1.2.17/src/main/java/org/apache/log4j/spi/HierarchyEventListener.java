@@ -32,7 +32,7 @@ public interface HierarchyEventListener {
 
  
   //public
-  //void categoryCreationEvent(Category cat);
+  //void categoryCreationEvent(Category Cat);
 
 
   public

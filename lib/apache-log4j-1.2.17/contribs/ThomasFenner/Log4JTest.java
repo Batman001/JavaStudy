@@ -166,7 +166,7 @@ import java.util.*;
 public class Log4JTest
 {
 	// Create a category instance for this class
-   static Category cat = Category.getInstance(Log4JTest.class.getName());
+   static Category Cat = Category.getInstance(Log4JTest.class.getName());
 
    public static void main(String[] args)
    {
@@ -182,7 +182,7 @@ public class Log4JTest
       catch(Exception e){}
 
       // Set the priority which messages have to be logged
-		cat.setPriority(Priority.DEBUG);
+		Cat.setPriority(Priority.DEBUG);
 
       // Create a new instance of JDBCAppender
       JDBCAppender ja = new JDBCAppender();
@@ -217,13 +217,13 @@ public class Log4JTest
 		//ja.setLayout(new PatternLayout("%m"));
 
       // Add the appender to a category
-      cat.addAppender(ja);
+      Cat.addAppender(ja);
 
       // These messages with Priority >= setted priority will be logged to the database.
-		cat.debug("debug");
-      cat.info("info");
-      cat.error("error");
-      cat.fatal("fatal");
+		Cat.debug("debug");
+      Cat.info("info");
+      Cat.error("error");
+      Cat.fatal("fatal");
 	}
 }
 */

@@ -156,7 +156,7 @@ public class HierarchyDynamicMBean extends AbstractDynamicMBean
 
   public
   MBeanInfo getMBeanInfo() {
-    //cat.debug("getMBeanInfo called.");
+    //Cat.debug("getMBeanInfo called.");
 
     MBeanAttributeInfo[] attribs = new MBeanAttributeInfo[vAttributes.size()];
     vAttributes.toArray(attribs);

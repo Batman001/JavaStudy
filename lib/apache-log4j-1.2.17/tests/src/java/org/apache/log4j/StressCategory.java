@@ -110,7 +110,7 @@ class StressCategory {
   static
   void createLoop(int n) {
     if(n == LENGTH) {  
-      //System.out.println("..............Creating cat[]...........");
+      //System.out.println("..............Creating Cat[]...........");
       for(int i = 0; i < LENGTH; i++) {
 	if(ct[i] == null)
 	  cat[i] = null;
@@ -172,10 +172,10 @@ class StressCategory {
   void catDump() {
     for(int j = 0; j < LENGTH; j++) {
       if(cat[j] != null)
-	System.out.println("cat[" + j + "] = (" + cat[j].name + "," +
+	System.out.println("Cat[" + j + "] = (" + cat[j].name + "," +
 			   cat[j].getLevel() + ")");
       else
-	System.out.println("cat[" + j + "] = undefined"); 
+	System.out.println("Cat[" + j + "] = undefined");
     }
   }
 

@@ -503,7 +503,7 @@ public class DOMConfigurator implements Configurator {
     
     PropertySetter propSetter = new PropertySetter(cat);
     
-    // Remove all existing appenders from cat. They will be
+    // Remove all existing appenders from Cat. They will be
     // reconstructed if need be.
     cat.removeAllAppenders();
 

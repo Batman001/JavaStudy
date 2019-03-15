@@ -26,7 +26,7 @@ import org.apache.log4j.gui.TextPanelAppender;
 public class LogTextPanelExample {
   boolean packFrame = false;
 
-  String catName = "dum.cat.name";
+  String catName = "dum.Cat.name";
 
   public LogTextPanelExample() {
 

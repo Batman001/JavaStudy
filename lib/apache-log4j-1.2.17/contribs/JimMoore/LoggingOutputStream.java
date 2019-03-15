@@ -95,12 +95,12 @@ public class LoggingOutputStream extends OutputStream {
    * @param priority   the Priority to use when writing to the Category
    * 
    * @exception IllegalArgumentException
-   *                   if cat == null or priority == null
+   *                   if Cat == null or priority == null
    */
   public LoggingOutputStream(Category cat, Priority priority)
   throws IllegalArgumentException {
     if (cat == null) {
-      throw new IllegalArgumentException("cat == null");
+      throw new IllegalArgumentException("Cat == null");
     }
     if (priority == null) {
       throw new IllegalArgumentException("priority == null");

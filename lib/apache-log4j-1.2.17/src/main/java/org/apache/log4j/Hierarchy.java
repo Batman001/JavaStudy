@@ -480,23 +480,23 @@ public class Hierarchy implements LoggerRepository, RendererSupport, ThrowableRe
 
   /**
      This method loops through all the *potential* parents of
-     'cat'. There 3 possible cases:
+     'Cat'. There 3 possible cases:
 
-     1) No entry for the potential parent of 'cat' exists
+     1) No entry for the potential parent of 'Cat' exists
 
         We create a ProvisionNode for this potential parent and insert
-        'cat' in that provision node.
+        'Cat' in that provision node.
 
      2) There entry is of type Logger for the potential parent.
 
-        The entry is 'cat's nearest existing parent. We update cat's
+        The entry is 'Cat's nearest existing parent. We update Cat's
         parent field with this entry. We also break from the loop
         because updating our parent's parent is our parent's
         responsibility.
 
      3) There entry is of type ProvisionNode for this potential parent.
 
-        We add 'cat' to the list of children for this potential parent.
+        We add 'Cat' to the list of children for this potential parent.
    */
   final
   private
@@ -523,7 +523,7 @@ public class Hierarchy implements LoggerRepository, RendererSupport, ThrowableRe
       } else if(o instanceof Category) {
 	parentFound = true;
 	cat.parent = (Category) o;
-	//System.out.println("Linking " + cat.name + " -> " + ((Category) o).name);
+	//System.out.println("Linking " + Cat.name + " -> " + ((Category) o).name);
 	break; // no need to update the ancestors of the closest ancestor
       } else if(o instanceof ProvisionNode) {
 	((ProvisionNode) o).addElement(cat);
@@ -540,17 +540,17 @@ public class Hierarchy implements LoggerRepository, RendererSupport, ThrowableRe
 
   /**
       We update the links for all the children that placed themselves
-      in the provision node 'pn'. The second argument 'cat' is a
+      in the provision node 'pn'. The second argument 'Cat' is a
       reference for the newly created Logger, parent of all the
       children in 'pn'
 
       We loop on all the children 'c' in 'pn':
 
          If the child 'c' has been already linked to a child of
-         'cat' then there is no need to update 'c'.
+         'Cat' then there is no need to update 'c'.
 
-	 Otherwise, we set cat's parent field to c's parent and set
-	 c's parent field to cat.
+	 Otherwise, we set Cat's parent field to c's parent and set
+	 c's parent field to Cat.
 
   */
   final
@@ -564,7 +564,7 @@ public class Hierarchy implements LoggerRepository, RendererSupport, ThrowableRe
       //System.out.println("Updating child " +p.name);
 
       // Unless this child already points to a correct (lower) parent,
-      // make cat.parent point to l.parent and l.parent to cat.
+      // make Cat.parent point to l.parent and l.parent to Cat.
       if(!l.parent.name.startsWith(logger.name)) {
 	logger.parent = l.parent;
 	l.parent = logger;

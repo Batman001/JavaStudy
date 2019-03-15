@@ -65,7 +65,7 @@ import java.util.Vector;
   * 
    <pre>
     &nbsp;&nbsp;&nbsp;// Deprecated form:
-    &nbsp;&nbsp;&nbsp;Category cat = Category.getInstance("foo.bar")
+    &nbsp;&nbsp;&nbsp;Category Cat = Category.getInstance("foo.bar")
    
     &nbsp;&nbsp;&nbsp;// Preferred form for retrieving loggers:
     &nbsp;&nbsp;&nbsp;Logger logger = Logger.getLogger("foo.bar")
@@ -702,9 +702,9 @@ public class Category implements AppenderAttachable {
     *  <p> This function is intended to lessen the computational cost of
     *  disabled log debug statements.
     *
-    *  <p> For some <code>cat</code> Category object, when you write,
+    *  <p> For some <code>Cat</code> Category object, when you write,
     *  <pre>
-    *      cat.debug("This is entry number: " + i );
+    *      Cat.debug("This is entry number: " + i );
     *  </pre>
     *
     *  <p>You incur the cost constructing the message, concatenatiion in
@@ -712,14 +712,14 @@ public class Category implements AppenderAttachable {
     *
     *  <p>If you are worried about speed, then you should write
     *  <pre>
-    * 	 if(cat.isDebugEnabled()) {
-    * 	   cat.debug("This is entry number: " + i );
+    * 	 if(Cat.isDebugEnabled()) {
+    * 	   Cat.debug("This is entry number: " + i );
     * 	 }
     *  </pre>
     *
     *  <p>This way you will not incur the cost of parameter
-    *  construction if debugging is disabled for <code>cat</code>. On
-    *  the other hand, if the <code>cat</code> is debug enabled, you
+    *  construction if debugging is disabled for <code>Cat</code>. On
+    *  the other hand, if the <code>Cat</code> is debug enabled, you
     *  will incur the cost of evaluating whether the category is debug
     *  enabled twice. Once in <code>isDebugEnabled</code> and once in
     *  the <code>debug</code>.  This is an insignificant overhead

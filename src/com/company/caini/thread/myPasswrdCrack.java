@@ -6,16 +6,16 @@ import java.util.Random;
  * Created by Batman on 2018/10/12.
  * @author Batman
  */
-public class myPasswrdCrack extends Thread {
+public class MyPasswrdCrack extends Thread {
     private String pswd;
 
-    public myPasswrdCrack(String str){
+    public MyPasswrdCrack(String str){
         this.pswd = str;
     }
     public static void main(String[] args) {
         String pswd = randomString(10);
         System.out.println("当前随机生成密码是:" + pswd);
-        myPasswrdCrack t1 = new myPasswrdCrack(pswd);
+        MyPasswrdCrack t1 = new MyPasswrdCrack(pswd);
         t1.start();
 
     }

@@ -21,7 +21,7 @@ public class TestFileSearch {
     }
 
     public static void main(String[] args) {
-        File folder = new File("/Users/Batman/JavaProjects/JavaStudy");
+        File folder = new File("/Users/SunChao/JavaProjects/JavaStudy");
         search(folder, "attack");
     }
 }

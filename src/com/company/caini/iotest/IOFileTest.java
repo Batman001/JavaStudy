@@ -7,7 +7,7 @@ import java.io.*;
  */
 public class IOFileTest {
     public static void main(String[] args){
-        //copyFile("/Users/Batman/JavaProjects/JavaStudy/data/Dog.txt", "/Users/Batman/JavaProjects/JavaStudy/data/cat.txt");
+        //copyFile("/Users/Batman/JavaProjects/JavaStudy/data/Dog.txt", "/Users/Batman/JavaProjects/JavaStudy/data/Cat.txt");
         //copyFolder("/Users/Batman/Desktop/ACL_titles_abstracts_dataset-master", "/Users/Batman/JavaProjects/JavaStudy/data/test");
         searchStrOfFolder("垃圾回收机制", "/Users/Batman/JavaProjects/JavaStudy/data/");
 

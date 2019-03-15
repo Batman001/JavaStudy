@@ -82,7 +82,7 @@ class Dispatcher extends Thread {
    * </p>
    */
   public void run() {
-    //Category cat = Category.getInstance(Dispatcher.class.getName());
+    //Category Cat = Category.getInstance(Dispatcher.class.getName());
     LoggingEvent event;
 
     while (true) {
@@ -90,7 +90,7 @@ class Dispatcher extends Thread {
         if (bf.length() == 0) {
           // Exit loop if interrupted but only if the the buffer is empty.
           if (interrupted) {
-            //cat.info("Exiting.");
+            //Cat.info("Exiting.");
             break;
           }
 

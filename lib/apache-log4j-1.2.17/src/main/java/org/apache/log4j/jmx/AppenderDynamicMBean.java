@@ -245,7 +245,7 @@ public class AppenderDynamicMBean extends AbstractDynamicMBean {
 
     MethodUnion mu = (MethodUnion) dynamicProps.get(attributeName);
 
-    //cat.debug("----name="+attributeName+", b="+b);
+    //Cat.debug("----name="+attributeName+", b="+b);
 
     if(mu != null && mu.readMethod != null) {
       try {

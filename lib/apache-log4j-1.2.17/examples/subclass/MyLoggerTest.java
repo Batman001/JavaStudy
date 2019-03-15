@@ -38,7 +38,7 @@ public class MyLoggerTest {
   /**
      When called wihtout arguments, this program will just print 
      <pre>
-       DEBUG [main] some.cat - Hello world.
+       DEBUG [main] some.Cat - Hello world.
      </pre>
      and exit.
      
@@ -66,7 +66,7 @@ public class MyLoggerTest {
       usage("Incorrect number of parameters.");
     }
     try {
-      MyLogger c = (MyLogger) MyLogger.getLogger("some.cat");    
+      MyLogger c = (MyLogger) MyLogger.getLogger("some.Cat");
       c.trace("Hello");
       c.debug("Hello");
     } catch(ClassCastException e) {

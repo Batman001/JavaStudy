@@ -61,8 +61,8 @@ public class ProducerConsumerTest {
         new ProduceThread(stack,"producer1").start();
         new ProduceThread(stack,"producer2").start();
         new ConsumerThread(stack,"consumer1").start();
-//        new ConsumerThread(stack,"consumer2").start();
-//        new ConsumerThread(stack,"consumer3").start();
+        new ConsumerThread(stack,"consumer2").start();
+        new ConsumerThread(stack,"consumer3").start();
 
     }
 }
