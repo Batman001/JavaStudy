@@ -26,5 +26,14 @@ public class Test {
 
         System.out.println(student);
 
+
+        /** 4.调用double类型的参数 **/
+        Method method3 = student.getClass().getMethod("getNameAndScore", String.class, double.class);
+        method3.invoke(student,"Batman", 100.56);
+
+
+
+
+
     }
 }
