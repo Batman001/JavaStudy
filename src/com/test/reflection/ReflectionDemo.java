@@ -65,10 +65,6 @@ public class ReflectionDemo {
         Person person = new Person();
         System.out.println("demo1: 包名: " + person.getClass().getPackage().getName() + "，" + "完整类名: " + person.getClass().getName());
 
-        /**
-         运行结果：
-         demo1: 包名: com.b510.hongten.test.reflex，完整类名: com.b510.hongten.test.reflex.Person
-         */
     }
 
     /**
@@ -102,11 +98,11 @@ public class ReflectionDemo {
     private static void demo3() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         Class<?> class1 = null;
         class1 = Class.forName("com.test.reflection.Person");
-        // 由于这里不能带参数，所以你要实例化的这个类Person，一定要有无参构造函数哈～
+        // 由于这里不能带参数，所以你要实例化的这个类Person，一定要有无参构造函数
         Person person = (Person) class1.newInstance();
         person.setAge(20);
         person.setName("Robin");
-        System.out.println("demo3: " + person.getName() + " : " + person.getAge());
+        System.out.println("demo3:" + person);
 
     }
 
@@ -130,11 +126,11 @@ public class ReflectionDemo {
 
         person1 = (Person) constructors[0].newInstance();
         person1.setAge(30);
-        person1.setName("Robinn");
+        person1.setName("Robin");
 
-        person2 = (Person) constructors[1].newInstance(20, "Robin");
+        person2 = (Person) constructors[1].newInstance(20, "Batman");
 
-        System.out.println("demo4: " + person1.getName() + " : " + person1.getAge() + "  ,   " + person2.getName() + " : " + person2.getAge());
+        System.out.println("demo4:" + person1 + "\n" + person2);
 
     }
 
@@ -155,14 +151,10 @@ public class ReflectionDemo {
 
         Field personNameField = class1.getDeclaredField("name");
         personNameField.setAccessible(true);
-        personNameField.set(obj, "BATMAN");
+        personNameField.set(obj, "SpiderMan");
 
         System.out.println("demo5: 修改属性之后得到属性变量的值：" + personNameField.get(obj));
 
-        /**
-         运行结果：
-         demo5: 修改属性之后得到属性变量的值：BATMAN
-         */
     }
 
     /**
@@ -207,10 +199,6 @@ public class ReflectionDemo {
             System.out.println("实现的接口类名: " + interfaces[i].getName());
         }
 
-        /**
-         运行结果：
-         实现的接口类名: com.b510.hongten.test.reflex.ActionInterface
-         */
 
     }
 
@@ -296,6 +284,14 @@ class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
 
