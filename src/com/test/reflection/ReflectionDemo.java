@@ -194,7 +194,7 @@ public class ReflectionDemo {
         System.out.println("===============================================");
 
         // 取得类实现的接口,因为接口类也属于Class,所以得到接口中的方法也是一样的方法得到哈
-        Class<?> interfaces[] = class1.getInterfaces();
+        Class<?>[] interfaces = class1.getInterfaces();
         for (int i = 0; i < interfaces.length; i++) {
             System.out.println("实现的接口类名: " + interfaces[i].getName());
         }
@@ -231,7 +231,7 @@ public class ReflectionDemo {
     /**
      * demo8: 通过Java反射机制得到类加载器信息
      *
-     * 在java中有三种类类加载器。[这段资料网上截取]
+     * 在java中有三种类类加载器。
      *
      * 1）Bootstrap ClassLoader 此加载器采用c++编写，一般开发中很少见。
      *
@@ -296,23 +296,24 @@ class Person {
 }
 
 class SuperMan extends Person implements ActionInterface {
-    private boolean BlueBriefs;
+    /** 是否为蓝色内裤 */
+    private boolean blueBriefs;
 
     public void fly() {
         System.out.println("fly method....");
     }
 
     public boolean isBlueBriefs() {
-        return BlueBriefs;
+        return blueBriefs;
     }
 
-    public void setBlueBriefs(boolean blueBriefs) {
-        BlueBriefs = blueBriefs;
+    public void setBlueBriefs(boolean isBlueBriefs) {
+        blueBriefs = isBlueBriefs;
     }
 
     @Override
     public void walk(int m) {
-        System.out.println("fly in " + m + " m");
+        System.out.println("fly in " + m + " minutes");
     }
 }
 
