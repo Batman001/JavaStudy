@@ -1,4 +1,4 @@
-package com.company.caini.network;
+package com.test.network;
 
 import java.io.IOException;
 import java.net.InetAddress;

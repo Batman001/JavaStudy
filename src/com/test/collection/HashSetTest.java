@@ -1,4 +1,4 @@
-package com.company.caini.collection;
+package com.test.collection;
 
 import java.util.HashSet;
 import java.util.Iterator;

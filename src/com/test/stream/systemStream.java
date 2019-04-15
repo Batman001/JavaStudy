@@ -1,4 +1,4 @@
-package com.company.caini.stream;
+package com.test.stream;
 import java.util.Scanner;
 /**
  * Created by Batman on 2018/7/31.

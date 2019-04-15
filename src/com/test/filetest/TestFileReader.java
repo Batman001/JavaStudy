@@ -1,4 +1,4 @@
-package com.company.caini.filetest;
+package com.test.filetest;
 
 import java.io.*;
 import java.nio.charset.Charset;

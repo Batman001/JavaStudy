@@ -1,4 +1,4 @@
-package com.company.caini.collection;
+package com.test.collection;
 
 /**
  * Created by Batman on 2018/8/1.

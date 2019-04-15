@@ -1,5 +1,5 @@
-package com.company.caini.bugcode;
-import com.company.caini.jdbc.ConnectionPool;
+package com.test.bugcode;
+import com.test.jdbc.ConnectionPool;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

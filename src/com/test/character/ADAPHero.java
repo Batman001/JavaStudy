@@ -1,6 +1,6 @@
-package com.company.caini.character;
+package com.test.character;
 
-import com.company.caini.property.Mortal;
+import com.test.property.Mortal;
 
 /**
  * Created on 2018/6/28.

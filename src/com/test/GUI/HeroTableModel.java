@@ -1,7 +1,7 @@
-package com.company.caini.GUI;
+package com.test.GUI;
 
-import com.company.caini.jdbc.HeroDAO;
-import com.company.caini.jdbc.JDBCHero;
+import com.test.jdbc.HeroDAO;
+import com.test.jdbc.JDBCHero;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.List;

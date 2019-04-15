@@ -1,6 +1,6 @@
-package com.company.caini.digitstring;
+package com.test.digitstring;
 
-import com.company.caini.character.Hero;
+import com.test.character.Hero;
 
 import java.util.Locale;
 

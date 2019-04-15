@@ -1,7 +1,7 @@
-package com.company.caini.generic;
+package com.test.generic;
 
-import com.company.caini.character.APHero;
-import com.company.caini.character.Hero;
+import com.test.character.APHero;
+import com.test.character.Hero;
 
 import java.util.ArrayList;
 

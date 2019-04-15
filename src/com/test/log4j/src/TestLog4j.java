@@ -1,4 +1,4 @@
-package com.company.caini.log4j.src;
+package com.test.log4j.src;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

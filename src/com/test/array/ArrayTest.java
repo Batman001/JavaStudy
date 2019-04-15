@@ -1,4 +1,4 @@
-package com.company.caini.array;
+package com.test.array;
 import java.text.MessageFormat;
 /**
  * Created on 2018/5/15.

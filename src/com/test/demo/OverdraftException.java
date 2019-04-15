@@ -1,4 +1,4 @@
-package com.company.caini.demo;
+package com.test.demo;
 
 /**
  * Created by Batman on 2018/7/27.

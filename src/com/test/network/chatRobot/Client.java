@@ -1,4 +1,4 @@
-package com.company.caini.network.chatRobot;
+package com.test.network.chatRobot;
 
 import java.io.*;
 import java.net.Socket;

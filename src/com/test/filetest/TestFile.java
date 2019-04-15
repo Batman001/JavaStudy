@@ -1,4 +1,4 @@
-package com.company.caini.filetest;
+package com.test.filetest;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;

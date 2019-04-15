@@ -1,7 +1,7 @@
-package com.company.caini.collection;
+package com.test.collection;
 
 
-import com.company.caini.character.Hero;
+import com.test.character.Hero;
 
 import java.util.LinkedList;
 

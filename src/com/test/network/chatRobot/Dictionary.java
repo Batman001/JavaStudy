@@ -1,4 +1,4 @@
-package com.company.caini.network.chatRobot;
+package com.test.network.chatRobot;
 
 /**
  * Created by Batman on 2018/10/30.

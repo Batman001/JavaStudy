@@ -1,4 +1,4 @@
-package com.company.caini.iotest;
+package com.test.iotest;
 
 import java.io.*;
 

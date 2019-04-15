@@ -1,4 +1,4 @@
-package com.company.caini.bugcode;
+package com.test.bugcode;
 
 /**
  * Created on 2018/10/26.
@@ -10,7 +10,7 @@ public class DiffOfConnectionPoolAndTraditionConnection {
     public static void main(String[] args) {
 
         long start = System.currentTimeMillis();
-        TraditionConnectionThread tct = new TraditionConnectionThread(100);
+        com.test.bugcode.TraditionConnectionThread tct = new com.test.bugcode.TraditionConnectionThread(100);
         tct.insertData();
         long end = System.currentTimeMillis();
         System.out.println("使用传统数据库方式,创建100个线程向数据库插入数据,共计耗时"

@@ -1,7 +1,7 @@
-package com.company.caini.bugcode;
+package com.test.bugcode;
 
-import com.company.caini.jdbc.HeroDAO;
-import com.company.caini.jdbc.JDBCHero;
+import com.test.jdbc.HeroDAO;
+import com.test.jdbc.JDBCHero;
 
 /**
  * Created on 2018/10/26.

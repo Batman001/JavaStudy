@@ -1,4 +1,4 @@
-package com.company.caini.thread;
+package com.test.thread;
 
 /**
  * Created by Batman on 2018/10/15.

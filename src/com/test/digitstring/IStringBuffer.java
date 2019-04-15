@@ -1,4 +1,4 @@
-package com.company.caini.digitstring;
+package com.test.digitstring;
 
 /**
  * Created by Batman on 2018/7/6.

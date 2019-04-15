@@ -1,4 +1,4 @@
-package com.company.caini.GUI;
+package com.test.GUI;
 
 import javax.swing.*;
 import java.io.*;

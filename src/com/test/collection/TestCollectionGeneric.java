@@ -1,9 +1,9 @@
-package com.company.caini.collection;
+package com.test.collection;
 
-import com.company.caini.character.APHero;
-import com.company.caini.character.Hero;
-import com.company.caini.character.HeroItem;
-import com.company.caini.property.ItemSon;
+import com.test.character.APHero;
+import com.test.character.Hero;
+import com.test.character.HeroItem;
+import com.test.property.ItemSon;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package com.company.caini.property;
+package com.test.property;
 
-import com.company.caini.character.HeroItem;
+import com.test.character.HeroItem;
 
 /**
  * Created by Batman on 2018/8/1.

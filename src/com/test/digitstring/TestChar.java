@@ -1,4 +1,4 @@
-package com.company.caini.digitstring;
+package com.test.digitstring;
 
 import java.lang.String;
 import java.util.Arrays;

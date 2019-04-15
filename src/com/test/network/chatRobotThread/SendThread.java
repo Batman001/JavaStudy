@@ -1,4 +1,4 @@
-package com.company.caini.network.chatRobotThread;
+package com.test.network.chatRobotThread;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

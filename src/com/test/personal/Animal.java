@@ -1,4 +1,4 @@
-package com.company.caini.personal;
+package com.test.personal;
 import java.lang.String;
 /**
  * Created by Batman on 2018/7/3.

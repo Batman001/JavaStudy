@@ -1,10 +1,10 @@
-package com.company.caini.character;
+package com.test.character;
 
-import com.company.caini.property.Weapon;
-import com.company.caini.property.LifePotion;
-import com.company.caini.property.MagicPotion;
-import com.company.caini.property.Item;
-import com.company.caini.property.Mortal;
+import com.test.property.Weapon;
+import com.test.property.LifePotion;
+import com.test.property.MagicPotion;
+import com.test.property.Item;
+import com.test.property.Mortal;
 
 import java.io.Serializable;
 import java.lang.String;

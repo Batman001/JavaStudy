@@ -1,4 +1,4 @@
-package com.company.caini.thread;
+package com.test.thread;
 
 import java.util.Random;
 

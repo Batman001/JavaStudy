@@ -1,6 +1,6 @@
-package com.company.caini.GUI;
+package com.test.GUI;
 
-import com.company.caini.jdbc.JDBCHero;
+import com.test.jdbc.JDBCHero;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;

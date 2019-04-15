@@ -1,4 +1,4 @@
-package com.company.caini.demo;
+package com.test.demo;
 
 import java.util.Scanner;
 

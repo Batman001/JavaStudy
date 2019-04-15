@@ -1,4 +1,4 @@
-package com.company.caini.filetest;
+package com.test.filetest;
 import java.io.File;
 /**
  * Created by Batman on 2018/7/27.

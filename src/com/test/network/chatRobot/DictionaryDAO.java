@@ -1,4 +1,4 @@
-package com.company.caini.network.chatRobot;
+package com.test.network.chatRobot;
 
 import java.sql.*;
 import java.util.ArrayList;

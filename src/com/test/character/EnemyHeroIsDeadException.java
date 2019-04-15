@@ -1,4 +1,4 @@
-package com.company.caini.character;
+package com.test.character;
 
 /**
  * Created on 2018/7/26.

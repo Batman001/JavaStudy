@@ -1,4 +1,4 @@
-package com.company.caini.jdbc;
+package com.test.jdbc;
 
 /**
  * Created by Batman on 2018/10/24.

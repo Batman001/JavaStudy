@@ -1,4 +1,4 @@
-package com.company.caini.property;
+package com.test.property;
 
 /**
  * Created by Batman on 2018/6/28.

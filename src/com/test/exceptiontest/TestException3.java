@@ -1,4 +1,4 @@
-package com.company.caini.exceptiontest;
+package com.test.exceptiontest;
 import java.io.File;
 import java.io.FileInputStream;
 /**

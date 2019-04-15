@@ -1,4 +1,4 @@
-package com.company.caini.date;
+package com.test.date;
 
 import java.util.Date;
 import java.text.SimpleDateFormat;

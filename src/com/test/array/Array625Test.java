@@ -1,4 +1,4 @@
-package com.company.caini.array;
+package com.test.array;
 import java.util.Arrays;
 
 /**

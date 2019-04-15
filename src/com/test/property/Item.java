@@ -1,4 +1,4 @@
-package com.company.caini.property;
+package com.test.property;
 
 
 /**

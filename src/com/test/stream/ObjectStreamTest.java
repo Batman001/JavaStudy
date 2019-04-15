@@ -1,6 +1,6 @@
-package com.company.caini.stream;
+package com.test.stream;
 
-import com.company.caini.character.Hero;
+import com.test.character.Hero;
 
 import java.io.*;
 

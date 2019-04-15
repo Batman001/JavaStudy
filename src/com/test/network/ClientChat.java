@@ -1,4 +1,4 @@
-package com.company.caini.network;
+package com.test.network;
 
 import java.io.*;
 import java.net.Socket;

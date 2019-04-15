@@ -1,4 +1,4 @@
-package com.company.caini.stream;
+package com.test.stream;
 
 import java.io.*;
 

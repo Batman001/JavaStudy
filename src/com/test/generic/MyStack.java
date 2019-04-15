@@ -1,8 +1,8 @@
-package com.company.caini.generic;
+package com.test.generic;
 
-import com.company.caini.character.Hero;
-import com.company.caini.property.Item;
-import com.company.caini.property.LifePotion;
+import com.test.character.Hero;
+import com.test.property.Item;
+import com.test.property.LifePotion;
 
 import java.util.LinkedList;
 

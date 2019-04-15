@@ -1,4 +1,4 @@
-package com.company.caini.jdbc;
+package com.test.jdbc;
 
 import java.util.ArrayList;
 import java.util.List;
