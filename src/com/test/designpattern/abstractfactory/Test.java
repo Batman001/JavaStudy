@@ -10,5 +10,10 @@ public class Test {
         Provider provider = new SendMailFactory();
         Sender sender = provider.produce();
         sender.send();
+
+
+        Provider weChatProvider = new SendWeChatFactory();
+        Sender weChatSender = weChatProvider.produce();
+        weChatSender.send();
     }
 }
