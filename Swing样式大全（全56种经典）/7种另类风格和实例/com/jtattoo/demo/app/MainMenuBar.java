@@ -121,7 +121,7 @@ public class MainMenuBar extends JMenuBar {
         menu = new JMenu("Look & Feel");
         menu.setMnemonic('L');
         
-        radioMenuItem = new JRadioButtonMenuItem("Metal");
+        radioMenuItem = new JRadioButtonMenuItem("Meal");
         radioMenuItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
                 demoApp.updateLookAndFeel(GUIProperties.PLAF_METAL);
