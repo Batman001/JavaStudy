@@ -9,12 +9,12 @@ public class AbstractFactoryDemo {
         AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
 
         // 获取颜色工厂
-        AbstractFactory colorFacoty = FactoryProducer.getFactory("COLOR");
+        AbstractFactory colorFactoty = FactoryProducer.getFactory("COLOR");
 
         Shape s1 = shapeFactory.getShape("RECTANGLE");
         s1.draw();
 
-        Color c1 = colorFacoty.getColor("RED");
+        Color c1 = colorFactoty.getColor("RED");
         c1.fill();
     }
 }
