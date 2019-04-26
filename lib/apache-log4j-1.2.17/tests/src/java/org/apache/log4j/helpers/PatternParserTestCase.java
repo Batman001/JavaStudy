@@ -31,7 +31,7 @@ import org.apache.log4j.MDC;
 import org.apache.log4j.util.Compare;
 
 /**
-   Test case for helpers/PatternParser.java. Tests the various 
+   AbstractFactoryDemo case for helpers/PatternParser.java. Tests the various
    conversion patterns supported by PatternParser. This test
    class tests PatternParser via the PatternLayout class which
    uses it.
@@ -60,7 +60,7 @@ public class PatternParserTestCase extends TestCase {
   }
 
   /**
-    Test case for MDC conversion pattern. */
+    AbstractFactoryDemo case for MDC conversion pattern. */
   public void mdcPattern() throws Exception {
     
     String mdcMsgPattern1 = "%m : %X%n";

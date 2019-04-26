@@ -21,7 +21,7 @@ import org.apache.log4j.spi.LoggingEvent;
 
 
 /**
- * Test for EnhancedPatternLayout.
+ * AbstractFactoryDemo for EnhancedPatternLayout.
  *
  */
 public class EnhancedPatternLayoutTest extends LayoutTest {

@@ -22,7 +22,7 @@ import org.apache.log4j.spi.LoggingEvent;
 
 
 /**
- * Test for TTCCLayout.
+ * AbstractFactoryDemo for TTCCLayout.
  *
  * @author Curt Arnold
  */

@@ -59,7 +59,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test default constructor.
+   * AbstractFactoryDemo default constructor.
    */
   public void testDefaultConstructor() {
     SyslogAppender appender = new SyslogAppender();
@@ -71,7 +71,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test two parameter constructor.
+   * AbstractFactoryDemo two parameter constructor.
    */
   public void testTwoParamConstructor() {
     Layout layout = new PatternLayout();
@@ -84,7 +84,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test two parameter constructor with unexpected facility.
+   * AbstractFactoryDemo two parameter constructor with unexpected facility.
    */
   public void testTwoParamConstructorBadFacility() {
     Layout layout = new PatternLayout();
@@ -97,7 +97,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test three parameter constructor.
+   * AbstractFactoryDemo three parameter constructor.
    */
   public void testThreeParamConstructor() {
     Layout layout = new PatternLayout();
@@ -111,7 +111,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test getFacilityString for expected facility codes.
+   * AbstractFactoryDemo getFacilityString for expected facility codes.
    */
   public void testGetFacilityString() {
     String expected =
@@ -134,7 +134,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test getFacilityString for some unexpected facility codes.
+   * AbstractFactoryDemo getFacilityString for some unexpected facility codes.
    */
   public void testGetFacilityStringUnexpected() {
     assertNull(SyslogAppender.getFacilityString(1));
@@ -142,21 +142,21 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test getFacility with a bogus facility name.
+   * AbstractFactoryDemo getFacility with a bogus facility name.
    */
   public void testGetFacilityBogus() {
     assertEquals(-1, SyslogAppender.getFacility("bogus"));
   }
 
   /**
-   * Test getFacility with a null facility name.
+   * AbstractFactoryDemo getFacility with a null facility name.
    */
   public void testGetFacilityNull() {
     assertEquals(-1, SyslogAppender.getFacility(null));
   }
 
   /**
-   * Test getFacility for expected system facility names.
+   * AbstractFactoryDemo getFacility for expected system facility names.
    */
   public void testGetFacilitySystemNames() {
     String[] names =
@@ -171,7 +171,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test getFacility for expected system facility names.
+   * AbstractFactoryDemo getFacility for expected system facility names.
    */
   public void testGetFacilityLocalNames() {
     String[] names =
@@ -186,7 +186,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test setFacilityPrinting.
+   * AbstractFactoryDemo setFacilityPrinting.
    */
   public void testSetFacilityPrinting() {
     SyslogAppender appender = new SyslogAppender();
@@ -198,7 +198,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test of SyslogAppender constants.
+   * AbstractFactoryDemo of SyslogAppender constants.
    */
   public void testConstants() {
     assertEquals(0 << 3, SyslogAppender.LOG_KERN);
@@ -224,7 +224,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test setFacility with null.
+   * AbstractFactoryDemo setFacility with null.
    * Should have no effect.
    */
   public void testSetFacilityKern() {
@@ -235,7 +235,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test setFacility with null.
+   * AbstractFactoryDemo setFacility with null.
    * Should have no effect.
    */
   public void testSetFacilityNull() {
@@ -246,7 +246,7 @@ public class SyslogAppenderTest extends TestCase {
   }
 
   /**
-   * Test setFacility with bogus value.
+   * AbstractFactoryDemo setFacility with bogus value.
    * Should reset to user.
    */
   public void testSetFacilityBogus() {

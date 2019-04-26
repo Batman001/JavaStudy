@@ -41,7 +41,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 
 /**
- * Test for XMLLayout.
+ * AbstractFactoryDemo for XMLLayout.
  *
  * @author Curt Arnold
  */

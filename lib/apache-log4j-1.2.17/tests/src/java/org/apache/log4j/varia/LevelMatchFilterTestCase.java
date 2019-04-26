@@ -35,7 +35,7 @@ import org.apache.log4j.util.Compare;
 import org.apache.log4j.util.LineNumberFilter;
 
 /**
-   Test case for varia/LevelMatchFilter.java.
+   AbstractFactoryDemo case for varia/LevelMatchFilter.java.
  */
 public class LevelMatchFilterTestCase extends TestCase {
   

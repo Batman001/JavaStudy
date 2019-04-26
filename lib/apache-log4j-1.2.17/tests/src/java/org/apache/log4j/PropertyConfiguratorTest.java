@@ -36,7 +36,7 @@ import org.apache.log4j.spi.ThrowableRendererSupport;
 import org.apache.log4j.varia.LevelRangeFilter;
 
 /**
- * Test property configurator.
+ * AbstractFactoryDemo property configurator.
  *
  */
 public class PropertyConfiguratorTest extends TestCase {
@@ -45,7 +45,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
 
     /**
-     * Test for bug 40944.
+     * AbstractFactoryDemo for bug 40944.
      * Did not catch IllegalArgumentException on Properties.load
      * and close input stream.
      * @throws IOException if IOException creating properties file.
@@ -62,7 +62,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
 
     /**
-     * Test for bug 40944.
+     * AbstractFactoryDemo for bug 40944.
      * configure(URL) never closed opened stream.
      * @throws IOException if IOException creating properties file.
      */
@@ -78,7 +78,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
 
     /**
-     * Test for bug 40944.
+     * AbstractFactoryDemo for bug 40944.
      * configure(URL) did not catch IllegalArgumentException and
      * did not close stream.
      * @throws IOException if IOException creating properties file.
@@ -128,7 +128,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
     
     /**
-     * Test for bug 47465.
+     * AbstractFactoryDemo for bug 47465.
      * configure(URL) did not close opened JarURLConnection.
      * @throws IOException if IOException creating properties jar.
      */
@@ -150,7 +150,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
 
     /**
-     * Test processing of log4j.reset property, see bug 17531.
+     * AbstractFactoryDemo processing of log4j.reset property, see bug 17531.
      *
      */
     public void testReset() {
@@ -352,7 +352,7 @@ public class PropertyConfiguratorTest extends TestCase {
     }
 
     /**
-     * Test of log4j.throwableRenderer support.  See bug 45721.
+     * AbstractFactoryDemo of log4j.throwableRenderer support.  See bug 45721.
      */
     public void testThrowableRenderer() {
         Properties props = new Properties();

@@ -52,7 +52,7 @@ public class DRFATestCase extends TestCase {
   }
 
     /**
-     * Test prediction of check period.
+     * AbstractFactoryDemo prediction of check period.
      */
   public
   void testComputeCheckPeriod() {
@@ -88,7 +88,7 @@ public class DRFATestCase extends TestCase {
 
 
     /**
-     *   Test of RollingCalendar.
+     *   AbstractFactoryDemo of RollingCalendar.
      */
   public
   void testRC1() {

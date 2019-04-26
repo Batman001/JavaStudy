@@ -21,7 +21,7 @@ import org.apache.log4j.spi.LoggingEvent;
 
 
 /**
- * Test for PatternLayout.
+ * AbstractFactoryDemo for PatternLayout.
  *
  * @author Curt Arnold
  */

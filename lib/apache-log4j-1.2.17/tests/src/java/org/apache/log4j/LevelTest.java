@@ -243,7 +243,7 @@ public class LevelTest extends TestCase {
   }
 
     /**
-     * Test that dotless lower I + "nfo" is recognized as INFO.
+     * AbstractFactoryDemo that dotless lower I + "nfo" is recognized as INFO.
      */
   public void testDotlessLowerI() {
       Level level = Level.toLevel("\u0131nfo");
@@ -251,7 +251,7 @@ public class LevelTest extends TestCase {
   }
 
     /**
-     * Test that dotted lower I + "nfo" is recognized as INFO
+     * AbstractFactoryDemo that dotted lower I + "nfo" is recognized as INFO
      * even in Turkish locale.
      */
   public void testDottedLowerI() {

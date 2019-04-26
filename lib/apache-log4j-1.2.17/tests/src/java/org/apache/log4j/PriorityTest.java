@@ -187,7 +187,7 @@ public class PriorityTest extends TestCase {
   }
 
     /**
-     * Test that dotless lower I + "nfo" is recognized as INFO.
+     * AbstractFactoryDemo that dotless lower I + "nfo" is recognized as INFO.
      * @deprecated
      */
   public void testDotlessLowerI() {
@@ -196,7 +196,7 @@ public class PriorityTest extends TestCase {
   }
 
     /**
-     * Test that dotted lower I + "nfo" is recognized as INFO
+     * AbstractFactoryDemo that dotted lower I + "nfo" is recognized as INFO
      * even in Turkish locale.
      * @deprecated
      */

@@ -36,7 +36,7 @@ import org.apache.log4j.spi.LoggingEvent;
 
 
 /**
-   Test case for PatternParser.java. Tests the various
+   AbstractFactoryDemo case for PatternParser.java. Tests the various
    conversion patterns supported by PatternParser. This test
    class tests PatternParser via the EnhancedPatternLayout class which
    uses it.
@@ -80,7 +80,7 @@ public class PatternParserTest extends TestCase {
     assertEquals("343", result);
   }
 
-  /* Test whether words starting with the letter 'n' are treated differently,
+  /* AbstractFactoryDemo whether words starting with the letter 'n' are treated differently,
    * which was previously the case by mistake.
    */
   public void testNewWord2() throws Exception {

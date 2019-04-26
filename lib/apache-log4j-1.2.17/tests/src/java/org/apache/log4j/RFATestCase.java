@@ -24,7 +24,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- *  Test of RollingFileAppender.
+ *  AbstractFactoryDemo of RollingFileAppender.
  *
  * @author Curt Arnold
  */
@@ -39,7 +39,7 @@ public class RFATestCase extends TestCase {
   }
 
     /**
-     * Test basic rolling functionality using property file configuration.
+     * AbstractFactoryDemo basic rolling functionality using property file configuration.
      */
     public void test1() throws Exception {
      Logger logger = Logger.getLogger(RFATestCase.class);
@@ -59,7 +59,7 @@ public class RFATestCase extends TestCase {
     }
 
     /**
-     * Test basic rolling functionality using API configuration.
+     * AbstractFactoryDemo basic rolling functionality using API configuration.
      */
     public void test2() throws Exception {
       Logger logger = Logger.getLogger(RFATestCase.class);
@@ -115,7 +115,7 @@ public class RFATestCase extends TestCase {
     }
 
     /**
-     * Test locking of .1 file.
+     * AbstractFactoryDemo locking of .1 file.
      */
     public void testLockDotOne() throws Exception {
       Logger logger = Logger.getLogger(RFATestCase.class);
@@ -174,7 +174,7 @@ public class RFATestCase extends TestCase {
 
 
     /**
-     * Test locking of .3 file.
+     * AbstractFactoryDemo locking of .3 file.
      */
     public void testLockDotThree() throws Exception {
       Logger logger = Logger.getLogger(RFATestCase.class);

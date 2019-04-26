@@ -306,7 +306,7 @@ public class AsyncAppenderTestCase extends TestCase {
 
 
     /**
-     * Test that a mutable message object is evaluated before
+     * AbstractFactoryDemo that a mutable message object is evaluated before
      * being placed in the async queue.
      * See bug 43559.
      */

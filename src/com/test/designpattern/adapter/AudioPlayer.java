@@ -5,7 +5,7 @@ package com.test.designpattern.adapter;
  * @author Batman create on 2019-04-23 18:18
  */
 public class AudioPlayer implements MediaPlayer{
-    private MediaAdapter mediaAdapter;
+     private MediaAdapter mediaAdapter;
     static String vlcType = "vlc";
     static String mp4Type = "mp4";
     static String mp3Type = "mp3";

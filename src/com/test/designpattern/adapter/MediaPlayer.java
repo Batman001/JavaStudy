@@ -10,5 +10,5 @@ public interface MediaPlayer {
      * @param audioType String 音视频类型
      * @param fileName String 文件名称
      */
-    public void play(String audioType, String fileName);
+    void play(String audioType, String fileName);
 }

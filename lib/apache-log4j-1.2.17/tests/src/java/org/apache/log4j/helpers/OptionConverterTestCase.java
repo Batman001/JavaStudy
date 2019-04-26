@@ -35,7 +35,7 @@ import org.apache.log4j.PropertyConfiguratorTest;
 import org.apache.log4j.xml.XLevel;
 
 /**
-   Test variable substitution code.   
+   AbstractFactoryDemo variable substitution code.
    @author Ceki G&uuml;lc&uuml;
    
    @since 1.0

@@ -56,7 +56,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.entering with null class and method.
+     * AbstractFactoryDemo LogXF.entering with null class and method.
      */
     public void testEnteringNullNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -67,7 +67,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.entering with null class, method and parameter.
+     * AbstractFactoryDemo LogXF.entering with null class, method and parameter.
      */
     public void testEnteringNullNullNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -77,7 +77,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.entering with null class, method and parameters.
+     * AbstractFactoryDemo LogXF.entering with null class, method and parameters.
      */
     public void testEnteringNullNullNullArray() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -87,7 +87,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.entering with class and method.
+     * AbstractFactoryDemo LogXF.entering with class and method.
      */
     public void testEntering() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -97,7 +97,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.entering with class, method and parameter.
+     * AbstractFactoryDemo LogXF.entering with class, method and parameter.
      */
     public void testEnteringWithParam() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -107,7 +107,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.entering with class, method and bad parameter.
+     * AbstractFactoryDemo LogXF.entering with class, method and bad parameter.
      */
     public void testEnteringWithBadParam() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -117,7 +117,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.entering with class, method and bad parameters.
+     * AbstractFactoryDemo LogXF.entering with class, method and bad parameters.
      */
     public void testEnteringWithBadParams() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -128,7 +128,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.exiting with null class and method.
+     * AbstractFactoryDemo LogXF.exiting with null class and method.
      */
     public void testExitingNullNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -139,7 +139,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.exiting with null class, method and parameter.
+     * AbstractFactoryDemo LogXF.exiting with null class, method and parameter.
      */
     public void testExitingNullNullNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -150,7 +150,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.exiting with class and method.
+     * AbstractFactoryDemo LogXF.exiting with class and method.
      */
     public void testExiting() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -160,7 +160,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.exiting with class, method and return value.
+     * AbstractFactoryDemo LogXF.exiting with class, method and return value.
      */
     public void testExitingWithValue() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -170,7 +170,7 @@ public class TestLogXF extends TestCase {
     }
 
     /**
-     * Test LogXF.exiting with class, method and bad return value.
+     * AbstractFactoryDemo LogXF.exiting with class, method and bad return value.
      */
     public void testExitingWithBadValue() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -181,7 +181,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.throwing with null class, method and throwable.
+     * AbstractFactoryDemo LogXF.throwing with null class, method and throwable.
      */
     public void testThrowingNullNullNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -192,7 +192,7 @@ public class TestLogXF extends TestCase {
 
 
     /**
-     * Test LogXF.exiting with class and method.
+     * AbstractFactoryDemo LogXF.exiting with class and method.
      */
     public void testThrowing() {
         LogCapture capture = new LogCapture(Level.DEBUG);

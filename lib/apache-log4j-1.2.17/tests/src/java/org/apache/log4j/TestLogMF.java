@@ -71,7 +71,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test class name when logging through LogMF.
+     * AbstractFactoryDemo class name when logging through LogMF.
      */
     public void testClassName() {
         CharArrayWriter writer = new CharArrayWriter();
@@ -84,7 +84,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with null pattern.
+     * AbstractFactoryDemo LogMF.trace with null pattern.
      */
     public void testTraceNullPattern() {
         LogCapture capture = new LogCapture(TRACE);
@@ -94,7 +94,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with no-field pattern.
+     * AbstractFactoryDemo LogMF.trace with no-field pattern.
      */
     public void testTraceNoArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -104,7 +104,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with malformed pattern.
+     * AbstractFactoryDemo LogMF.trace with malformed pattern.
      */
     public void testTraceBadPattern() {
         LogCapture capture = new LogCapture(TRACE);
@@ -114,7 +114,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with missing argument.
+     * AbstractFactoryDemo LogMF.trace with missing argument.
      */
     public void testTraceMissingArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -124,7 +124,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with string argument.
      */
     public void testTraceString() {
         LogCapture capture = new LogCapture(TRACE);
@@ -134,7 +134,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with null argument.
      */
     public void testTraceNull() {
         LogCapture capture = new LogCapture(TRACE);
@@ -144,7 +144,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with int argument.
      */
     public void testTraceInt() {
         LogCapture capture = new LogCapture(TRACE);
@@ -156,7 +156,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with byte argument.
      */
     public void testTraceByte() {
         LogCapture capture = new LogCapture(TRACE);
@@ -168,7 +168,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with short argument.
      */
     public void testTraceShort() {
         LogCapture capture = new LogCapture(TRACE);
@@ -180,7 +180,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with long argument.
      */
     public void testTraceLong() {
         LogCapture capture = new LogCapture(TRACE);
@@ -192,7 +192,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with char argument.
      */
     public void testTraceChar() {
         LogCapture capture = new LogCapture(TRACE);
@@ -204,7 +204,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with boolean argument.
      */
     public void testTraceBoolean() {
         LogCapture capture = new LogCapture(TRACE);
@@ -216,7 +216,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with float argument.
      */
     public void testTraceFloat() {
         LogCapture capture = new LogCapture(TRACE);
@@ -229,7 +229,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.trace with single field pattern with double argument.
      */
     public void testTraceDouble() {
         LogCapture capture = new LogCapture(TRACE);
@@ -242,7 +242,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with two arguments.
+     * AbstractFactoryDemo LogMF.trace with two arguments.
      */
     public void testTraceTwoArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -252,7 +252,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with three arguments.
+     * AbstractFactoryDemo LogMF.trace with three arguments.
      */
     public void testTraceThreeArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -262,7 +262,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with four arguments.
+     * AbstractFactoryDemo LogMF.trace with four arguments.
      */
     public void testTraceFourArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -272,7 +272,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with Object[] argument.
+     * AbstractFactoryDemo LogMF.trace with Object[] argument.
      */
     public void testTraceArrayArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -284,7 +284,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.trace with null Object[] argument.
+     * AbstractFactoryDemo LogMF.trace with null Object[] argument.
      */
     public void testTraceNullArrayArg() {
         LogCapture capture = new LogCapture(TRACE);
@@ -297,7 +297,7 @@ public class TestLogMF extends TestCase {
 
 
     /**
-     * Test LogMF.debug with null pattern.
+     * AbstractFactoryDemo LogMF.debug with null pattern.
      */
     public void testDebugNullPattern() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -306,7 +306,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with no-field pattern.
+     * AbstractFactoryDemo LogMF.debug with no-field pattern.
      */
     public void testDebugNoArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -315,7 +315,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with malformed pattern.
+     * AbstractFactoryDemo LogMF.debug with malformed pattern.
      */
     public void testDebugBadPattern() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -324,7 +324,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with missing argument.
+     * AbstractFactoryDemo LogMF.debug with missing argument.
      */
     public void testDebugMissingArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -333,7 +333,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with string argument.
      */
     public void testDebugString() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -342,7 +342,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with null argument.
      */
     public void testDebugNull() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -351,7 +351,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with int argument.
      */
     public void testDebugInt() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -361,7 +361,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with byte argument.
      */
     public void testDebugByte() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -371,7 +371,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with short argument.
      */
     public void testDebugShort() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -381,7 +381,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with long argument.
      */
     public void testDebugLong() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -391,7 +391,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with char argument.
      */
     public void testDebugChar() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -401,7 +401,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with boolean argument.
      */
     public void testDebugBoolean() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -411,7 +411,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with float argument.
      */
     public void testDebugFloat() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -423,7 +423,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with double argument.
      */
     public void testDebugDouble() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -435,7 +435,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with two arguments.
+     * AbstractFactoryDemo LogMF.debug with two arguments.
      */
     public void testDebugTwoArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -444,7 +444,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with three arguments.
+     * AbstractFactoryDemo LogMF.debug with three arguments.
      */
     public void testDebugThreeArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -453,7 +453,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with four arguments.
+     * AbstractFactoryDemo LogMF.debug with four arguments.
      */
     public void testDebugFourArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -462,7 +462,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with Object[] argument.
+     * AbstractFactoryDemo LogMF.debug with Object[] argument.
      */
     public void testDebugArrayArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -472,7 +472,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with double argument.
      */
     public void testDebugDate() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -495,7 +495,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with null Object[] argument.
+     * AbstractFactoryDemo LogMF.debug with null Object[] argument.
      */
     public void testDebugNullArrayArg() {
         LogCapture capture = new LogCapture(Level.DEBUG);
@@ -529,7 +529,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with null pattern.
+     * AbstractFactoryDemo LogMF.info with null pattern.
      */
     public void testInfoNullPattern() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -538,7 +538,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with no-field pattern.
+     * AbstractFactoryDemo LogMF.info with no-field pattern.
      */
     public void testInfoNoArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -547,7 +547,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with malformed pattern.
+     * AbstractFactoryDemo LogMF.info with malformed pattern.
      */
     public void testInfoBadPattern() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -556,7 +556,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with missing argument.
+     * AbstractFactoryDemo LogMF.info with missing argument.
      */
     public void testInfoMissingArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -565,7 +565,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with string argument.
      */
     public void testInfoString() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -574,7 +574,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with null argument.
      */
     public void testInfoNull() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -583,7 +583,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with int argument.
      */
     public void testInfoInt() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -593,7 +593,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with byte argument.
      */
     public void testInfoByte() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -603,7 +603,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with short argument.
      */
     public void testInfoShort() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -613,7 +613,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with long argument.
      */
     public void testInfoLong() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -623,7 +623,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with char argument.
      */
     public void testInfoChar() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -633,7 +633,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with boolean argument.
      */
     public void testInfoBoolean() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -643,7 +643,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with float argument.
      */
     public void testInfoFloat() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -655,7 +655,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.info with single field pattern with double argument.
      */
     public void testInfoDouble() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -667,7 +667,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with two arguments.
+     * AbstractFactoryDemo LogMF.info with two arguments.
      */
     public void testInfoTwoArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -676,7 +676,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with three arguments.
+     * AbstractFactoryDemo LogMF.info with three arguments.
      */
     public void testInfoThreeArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -685,7 +685,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with four arguments.
+     * AbstractFactoryDemo LogMF.info with four arguments.
      */
     public void testInfoFourArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -694,7 +694,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with Object[] argument.
+     * AbstractFactoryDemo LogMF.info with Object[] argument.
      */
     public void testInfoArrayArg() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -704,7 +704,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with null pattern.
+     * AbstractFactoryDemo LogMF.warn with null pattern.
      */
     public void testWarnNullPattern() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -713,7 +713,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with no-field pattern.
+     * AbstractFactoryDemo LogMF.warn with no-field pattern.
      */
     public void testWarnNoArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -722,7 +722,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with malformed pattern.
+     * AbstractFactoryDemo LogMF.warn with malformed pattern.
      */
     public void testWarnBadPattern() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -731,7 +731,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with missing argument.
+     * AbstractFactoryDemo LogMF.warn with missing argument.
      */
     public void testWarnMissingArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -740,7 +740,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with string argument.
      */
     public void testWarnString() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -749,7 +749,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with null argument.
      */
     public void testWarnNull() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -758,7 +758,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with int argument.
      */
     public void testWarnInt() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -768,7 +768,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with byte argument.
      */
     public void testWarnByte() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -778,7 +778,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with short argument.
      */
     public void testWarnShort() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -788,7 +788,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with long argument.
      */
     public void testWarnLong() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -798,7 +798,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with char argument.
      */
     public void testWarnChar() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -808,7 +808,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with boolean argument.
      */
     public void testWarnBoolean() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -818,7 +818,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.warn with single field pattern with float argument.
      */
     public void testWarnFloat() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -830,7 +830,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.debug with single field pattern with double argument.
      */
     public void testWarnDouble() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -842,7 +842,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with two arguments.
+     * AbstractFactoryDemo LogMF.warn with two arguments.
      */
     public void testWarnTwoArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -851,7 +851,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with three arguments.
+     * AbstractFactoryDemo LogMF.warn with three arguments.
      */
     public void testWarnThreeArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -860,7 +860,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.debug with four arguments.
+     * AbstractFactoryDemo LogMF.debug with four arguments.
      */
     public void testWarnFourArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -869,7 +869,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.warn with Object[] argument.
+     * AbstractFactoryDemo LogMF.warn with Object[] argument.
      */
     public void testWarnArrayArg() {
         LogCapture capture = new LogCapture(Level.WARN);
@@ -879,7 +879,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with null pattern.
+     * AbstractFactoryDemo LogMF.log with null pattern.
      */
     public void testLogNullPattern() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -888,7 +888,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with no-field pattern.
+     * AbstractFactoryDemo LogMF.log with no-field pattern.
      */
     public void testLogNoArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -897,7 +897,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with malformed pattern.
+     * AbstractFactoryDemo LogMF.log with malformed pattern.
      */
     public void testLogBadPattern() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -906,7 +906,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with missing argument.
+     * AbstractFactoryDemo LogMF.log with missing argument.
      */
     public void testLogMissingArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -915,7 +915,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with string argument.
      */
     public void testLogString() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -924,7 +924,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with null argument.
      */
     public void testLogNull() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -933,7 +933,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with int argument.
      */
     public void testLogInt() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -943,7 +943,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with byte argument.
      */
     public void testLogByte() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -953,7 +953,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with short argument.
      */
     public void testLogShort() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -963,7 +963,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with long argument.
      */
     public void testLogLong() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -973,7 +973,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with char argument.
      */
     public void testLogChar() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -983,7 +983,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with boolean argument.
      */
     public void testLogBoolean() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -993,7 +993,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with float argument.
      */
     public void testLogFloat() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1005,7 +1005,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.log with single field pattern with double argument.
      */
     public void testLogDouble() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1017,7 +1017,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with two arguments.
+     * AbstractFactoryDemo LogMF.log with two arguments.
      */
     public void testLogTwoArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1026,7 +1026,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with three arguments.
+     * AbstractFactoryDemo LogMF.log with three arguments.
      */
     public void testLogThreeArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1035,7 +1035,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with four arguments.
+     * AbstractFactoryDemo LogMF.log with four arguments.
      */
     public void testLogFourArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1044,7 +1044,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.log with Object[] argument.
+     * AbstractFactoryDemo LogMF.log with Object[] argument.
      */
     public void testLogArrayArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1060,7 +1060,7 @@ public class TestLogMF extends TestCase {
             "org.apache.log4j.TestLogMFPatterns";
 
     /**
-     * Test LogMF.logrb with null bundle name.
+     * AbstractFactoryDemo LogMF.logrb with null bundle name.
      */
     public void testLogrbNullBundle() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1069,7 +1069,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with null key.
+     * AbstractFactoryDemo LogMF.logrb with null key.
      */
     public void testLogrbNullKey() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1078,7 +1078,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with no-field pattern.
+     * AbstractFactoryDemo LogMF.logrb with no-field pattern.
      */
     public void testLogrbNoArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1087,7 +1087,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with malformed pattern.
+     * AbstractFactoryDemo LogMF.logrb with malformed pattern.
      */
     public void testLogrbBadPattern() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1096,7 +1096,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with missing argument.
+     * AbstractFactoryDemo LogMF.logrb with missing argument.
      */
     public void testLogrbMissingArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1105,7 +1105,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with string argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with string argument.
      */
     public void testLogrbString() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1114,7 +1114,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with null argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with null argument.
      */
     public void testLogrbNull() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1123,7 +1123,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with int argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with int argument.
      */
     public void testLogrbInt() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1133,7 +1133,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with byte argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with byte argument.
      */
     public void testLogrbByte() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1143,7 +1143,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with short argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with short argument.
      */
     public void testLogrbShort() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1153,7 +1153,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with long argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with long argument.
      */
     public void testLogrbLong() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1163,7 +1163,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with char argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with char argument.
      */
     public void testLogrbChar() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1173,7 +1173,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with boolean argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with boolean argument.
      */
     public void testLogrbBoolean() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1183,7 +1183,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with float argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with float argument.
      */
     public void testLogrbFloat() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1195,7 +1195,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with single field pattern with double argument.
+     * AbstractFactoryDemo LogMF.logrb with single field pattern with double argument.
      */
     public void testLogrbDouble() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1207,7 +1207,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with two arguments.
+     * AbstractFactoryDemo LogMF.logrb with two arguments.
      */
     public void testLogrbTwoArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1217,7 +1217,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with three arguments.
+     * AbstractFactoryDemo LogMF.logrb with three arguments.
      */
     public void testLogrbThreeArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1227,7 +1227,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with four arguments.
+     * AbstractFactoryDemo LogMF.logrb with four arguments.
      */
     public void testLogrbFourArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1237,7 +1237,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.logrb with Object[] argument.
+     * AbstractFactoryDemo LogMF.logrb with Object[] argument.
      */
     public void testLogrbArrayArg() {
         LogCapture capture = new LogCapture(Level.ERROR);
@@ -1249,7 +1249,7 @@ public class TestLogMF extends TestCase {
 
 
     /**
-     * Test LogMF.info with a pattern containing {9} and one argument.
+     * AbstractFactoryDemo LogMF.info with a pattern containing {9} and one argument.
      */
     public void testInfo1ParamBrace9() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -1258,7 +1258,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with a pattern containing {9} and two arguments.
+     * AbstractFactoryDemo LogMF.info with a pattern containing {9} and two arguments.
      */
     public void testInfo2ParamBrace9() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -1267,7 +1267,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with a pattern containing {9} and two arguments.
+     * AbstractFactoryDemo LogMF.info with a pattern containing {9} and two arguments.
      */
     public void testInfo10ParamBrace9() {
         LogCapture capture = new LogCapture(Level.INFO);
@@ -1278,7 +1278,7 @@ public class TestLogMF extends TestCase {
     }
 
     /**
-     * Test LogMF.info with indexes just outside of 0 to 9.
+     * AbstractFactoryDemo LogMF.info with indexes just outside of 0 to 9.
      */
     public void testInfo1ParamBraceSlashColon() {
         LogCapture capture = new LogCapture(Level.INFO);

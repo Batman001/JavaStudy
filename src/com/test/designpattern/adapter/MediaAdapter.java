@@ -9,7 +9,7 @@ import static com.test.designpattern.adapter.AudioPlayer.vlcType;
 public class MediaAdapter implements MediaPlayer {
     private AdvancedMediaPlayer advancedMusicPlayer;
 
-    public MediaAdapter(String audioType){
+    MediaAdapter(String audioType){
         if(vlcType.equalsIgnoreCase(audioType)){
             advancedMusicPlayer = new VlcPlayer();
         }else if(mp4Type.equalsIgnoreCase(audioType)){

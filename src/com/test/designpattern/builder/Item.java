@@ -10,13 +10,13 @@ public interface Item {
      * 返回item的名称
      * @return String
      */
-    public String name();
+    String name();
 
     /**
      * 返回item的包装
      * @return Packing
      */
-    public Packing packing();
+    Packing packing();
 
     /**
      * 返回item的价格

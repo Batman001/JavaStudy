@@ -20,7 +20,7 @@ import junit.framework.TestCase;
 import org.apache.log4j.spi.ThrowableRenderer;
 
 /**
- * Test for EnhancedThrowableRenderer.
+ * AbstractFactoryDemo for EnhancedThrowableRenderer.
  *
  */
 public class EnhancedThrowableRendererTest extends TestCase {

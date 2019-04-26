@@ -29,7 +29,7 @@ import java.util.Hashtable;
 
 
 /**
- * Test for HTMLLayout.
+ * AbstractFactoryDemo for HTMLLayout.
  *
  * @author Curt Arnold
  */

@@ -8,12 +8,12 @@ public interface AdvancedMediaPlayer {
      * 播放vlc视频
      * @param fileName String 文件名称
      */
-    public void playVlc(String fileName);
+    void playVlc(String fileName);
 
     /**
      * 播放MP4视频
      * @param fileName String 文件名称
      */
-    public void playMp4(String fileName);
+    void playMp4(String fileName);
 
 }

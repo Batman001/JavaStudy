@@ -315,7 +315,7 @@ public class DOMTestCase extends TestCase {
 
 
     /**
-     * Test checks that configureAndWatch does initial configuration, see bug 33502.
+     * AbstractFactoryDemo checks that configureAndWatch does initial configuration, see bug 33502.
       * @throws Exception if IO error.
      */
   public void testConfigureAndWatch() throws Exception {
@@ -376,7 +376,7 @@ public class DOMTestCase extends TestCase {
     }
 
     /**
-     * Test of log4j.throwableRenderer support.  See bug 45721.
+     * AbstractFactoryDemo of log4j.throwableRenderer support.  See bug 45721.
      */
     public void testThrowableRenderer1() {
         DOMConfigurator.configure("input/xml/throwableRenderer1.xml");
@@ -389,7 +389,7 @@ public class DOMTestCase extends TestCase {
     }
 
     /**
-     * Test for bug 47465.
+     * AbstractFactoryDemo for bug 47465.
      * configure(URL) did not close opened JarURLConnection.
      * @throws IOException if IOException creating properties jar.
      */

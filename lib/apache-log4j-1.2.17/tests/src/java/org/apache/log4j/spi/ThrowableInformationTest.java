@@ -65,7 +65,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from a throwable that only uses the
+     * AbstractFactoryDemo capturing stack trace from a throwable that only uses the
      * PrintWriter methods overridden in log4j 1.2.14 and earlier.
      */
     public void testOverriddenBehavior() {
@@ -113,7 +113,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from a throwable that uses the
+     * AbstractFactoryDemo capturing stack trace from a throwable that uses the
      * PrintWriter methods not overridden in log4j 1.2.14 and earlier.
      */
     public void testNotOverriddenBehavior() {
@@ -162,7 +162,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from a throwable that passes
+     * AbstractFactoryDemo capturing stack trace from a throwable that passes
      * null to PrintWriter methods.
      */
 
@@ -196,7 +196,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from a throwable that
+     * AbstractFactoryDemo capturing stack trace from a throwable that
      * does nothing on a call to printStackTrace.
      */
 
@@ -234,7 +234,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from throwable that just has a line feed.
+     * AbstractFactoryDemo capturing stack trace from throwable that just has a line feed.
      */
     public void testLineFeed() {
         ThrowableInformation ti = new ThrowableInformation(new StringThrowable("\n"));
@@ -244,7 +244,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from throwable that just has a carriage return.
+     * AbstractFactoryDemo capturing stack trace from throwable that just has a carriage return.
      */
     public void testCarriageReturn() {
         ThrowableInformation ti = new ThrowableInformation(new StringThrowable("\r"));
@@ -254,7 +254,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test parsing of line breaks.
+     * AbstractFactoryDemo parsing of line breaks.
      */
     public void testParsing() {
         ThrowableInformation ti = new ThrowableInformation(
@@ -270,7 +270,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test capturing stack trace from throwable that a line feed followed by blank.
+     * AbstractFactoryDemo capturing stack trace from throwable that a line feed followed by blank.
      */
     public void testLineFeedBlank() {
         ThrowableInformation ti = new ThrowableInformation(new StringThrowable("\n "));
@@ -281,7 +281,7 @@ public class ThrowableInformationTest extends TestCase {
     }
 
     /**
-     * Test that getThrowable returns the throwable provided to the constructor.
+     * AbstractFactoryDemo that getThrowable returns the throwable provided to the constructor.
      */
     public void testGetThrowable() {
         Throwable t = new StringThrowable("Hello, World");

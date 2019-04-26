@@ -36,7 +36,7 @@ public class UtilLoggingLevelTest extends TestCase {
     }
 
     /**
-     * Test toLevel("fiNeSt").
+     * AbstractFactoryDemo toLevel("fiNeSt").
      */
     public void testToLevelFINEST() {
         assertSame(UtilLoggingLevel.FINEST, UtilLoggingLevel.toLevel("fiNeSt"));

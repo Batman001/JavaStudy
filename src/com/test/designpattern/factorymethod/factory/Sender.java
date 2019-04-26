@@ -7,5 +7,5 @@ public interface Sender {
     /**
      * 发送邮件和短信的接口
      */
-    public void send();
+    void send();
 }

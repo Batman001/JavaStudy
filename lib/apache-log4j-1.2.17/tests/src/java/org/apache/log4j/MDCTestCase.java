@@ -22,7 +22,7 @@ import java.lang.reflect.Method;
 import junit.framework.TestCase;
 
 /**
- * Test for MDC
+ * AbstractFactoryDemo for MDC
  * 
  *  @author Maarten Bosteels
  */

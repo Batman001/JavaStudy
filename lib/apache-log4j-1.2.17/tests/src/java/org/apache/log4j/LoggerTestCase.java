@@ -111,7 +111,7 @@ public class LoggerTestCase extends TestCase {
   }
 
   /**
-     Test if logger a.b inherits its appender from a.
+     AbstractFactoryDemo if logger a.b inherits its appender from a.
    */
   public
   void testAdditivity1() {
@@ -130,7 +130,7 @@ public class LoggerTestCase extends TestCase {
   }
 
   /**
-     Test multiple additivity.
+     AbstractFactoryDemo multiple additivity.
 
    */
   public
@@ -164,7 +164,7 @@ public class LoggerTestCase extends TestCase {
   }
 
   /**
-     Test additivity flag.
+     AbstractFactoryDemo additivity flag.
 
    */
   public

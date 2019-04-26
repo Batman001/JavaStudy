@@ -318,7 +318,7 @@ public class EnhancedPatternLayoutTestCase extends TestCase {
   }
 
     /**
-     * Test of class abbreviation.
+     * AbstractFactoryDemo of class abbreviation.
      *
      * @throws Exception
      */
@@ -432,7 +432,7 @@ public class EnhancedPatternLayoutTestCase extends TestCase {
   }
 
   /**
-    Test case for MDC conversion pattern. */
+    AbstractFactoryDemo case for MDC conversion pattern. */
   public void testMDC2() throws Exception {
     String OUTPUT_FILE   = "output/patternLayout.mdc.2";
     String WITNESS_FILE  = "witness/pattern/enhancedPatternLayout.mdc.2";
@@ -517,7 +517,7 @@ public class EnhancedPatternLayoutTestCase extends TestCase {
     assertTrue(compare(FILTERED, WITNESS_FILE));
   }
   /**
-    Test case for throwable conversion pattern. */
+    AbstractFactoryDemo case for throwable conversion pattern. */
   public void testThrowable() throws Exception {
     String OUTPUT_FILE   = "output/patternLayout.throwable";
     String WITNESS_FILE  = "witness/pattern/enhancedPatternLayout.throwable";
@@ -533,7 +533,7 @@ public class EnhancedPatternLayoutTestCase extends TestCase {
     
     // output starting message
     root.debug("starting throwable pattern test");
-     Exception ex = new Exception("Test Exception");
+     Exception ex = new Exception("AbstractFactoryDemo Exception");
     root.debug("plain pattern, no exception");
     root.debug("plain pattern, with exception", ex);
     layout.setConversionPattern("%m%n%throwable");

@@ -8,5 +8,5 @@ public interface Provider {
      * 邮件和短信生产 sender接口方法
      * @return Sender
      */
-    public Sender produce();
+    Sender produce();
 }

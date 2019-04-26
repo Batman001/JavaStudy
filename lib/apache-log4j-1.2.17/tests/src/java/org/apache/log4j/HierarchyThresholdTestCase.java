@@ -25,7 +25,7 @@ import org.apache.log4j.util.Compare;
 import org.apache.log4j.xml.XLevel;
 
 /**
-   Test the configuration of the hierarchy-wide threshold.
+   AbstractFactoryDemo the configuration of the hierarchy-wide threshold.
 
    @author  Ceki G&uuml;lc&uuml;
 */

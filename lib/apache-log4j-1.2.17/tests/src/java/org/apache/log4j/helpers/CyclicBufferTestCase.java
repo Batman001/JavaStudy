@@ -89,7 +89,7 @@ public class CyclicBufferTestCase extends TestCase {
   }
   
   /**
-     Test a buffer of size 1,2,4,8,..,128
+     AbstractFactoryDemo a buffer of size 1,2,4,8,..,128
    */
   public
   void test1() {

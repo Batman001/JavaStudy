@@ -38,7 +38,7 @@ public final class CachedDateFormatTest
     extends TestCase {
 
   /**
-   * Test constructor
+   * AbstractFactoryDemo constructor
    * @param name String test name
    */
   public CachedDateFormatTest(String name) {
@@ -64,7 +64,7 @@ public final class CachedDateFormatTest
       "America/Chicago");
 
   /**
-   * Test multiple calls in close intervals.
+   * AbstractFactoryDemo multiple calls in close intervals.
    */
   public void test1() {
     //   subsequent calls within one minute
@@ -97,7 +97,7 @@ public final class CachedDateFormatTest
   }
 
   /**
-   * Test multiple calls in close intervals prior to 1 Jan 1970.
+   * AbstractFactoryDemo multiple calls in close intervals prior to 1 Jan 1970.
    */
   public void test3() {
     //   subsequent calls within one minute
@@ -210,7 +210,7 @@ public final class CachedDateFormatTest
 
 
   /**
-   * Test of caching when less than three millisecond digits are specified.
+   * AbstractFactoryDemo of caching when less than three millisecond digits are specified.
    */
   public void test9() {
     // (Note: 'Z' is JDK 1.4, using 'z' instead.)
@@ -240,7 +240,7 @@ public final class CachedDateFormatTest
   
 
   /**
-   * Test when millisecond position moves but length remains constant.
+   * AbstractFactoryDemo when millisecond position moves but length remains constant.
    */
   public void test10() {
     DateFormat baseFormat = new SimpleDateFormat("MMMM SSS EEEEEE", Locale.US);
@@ -272,7 +272,7 @@ public final class CachedDateFormatTest
   }
 
   /**
-   * Test that tests if caching is skipped if only "SS"
+   * AbstractFactoryDemo that tests if caching is skipped if only "SS"
    *     is specified.
    */
   public void test11() {

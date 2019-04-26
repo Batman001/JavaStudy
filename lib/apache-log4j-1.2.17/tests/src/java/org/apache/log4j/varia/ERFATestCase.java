@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.net.Socket;
 
 /**
- *  Test of ExternallyRolledFileAppender.
+ *  AbstractFactoryDemo of ExternallyRolledFileAppender.
  *
  * @author Curt Arnold
  */
@@ -51,7 +51,7 @@ public class ERFATestCase extends TestCase {
   }
 
     /**
-     * Test ExternallyRolledFileAppender constructor.
+     * AbstractFactoryDemo ExternallyRolledFileAppender constructor.
      */
   public void testConstructor() {
       ExternallyRolledFileAppender appender =
@@ -79,7 +79,7 @@ public class ERFATestCase extends TestCase {
   }
 
     /**
-     * Test externally triggered rollover.
+     * AbstractFactoryDemo externally triggered rollover.
      * @throws IOException thrown on IO error.
      */
   public void testRollover() throws IOException {
