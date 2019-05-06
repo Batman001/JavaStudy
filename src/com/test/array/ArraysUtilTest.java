@@ -31,7 +31,7 @@ public class ArraysUtilTest {
         System.out.println(Arrays.toString(e));
 
 
-        /**
+        /*
          * 二维数组排序测试
          */
         int [][] f = new int[5][8];
@@ -44,7 +44,7 @@ public class ArraysUtilTest {
         System.out.println("未排序前二维数组为:");
         printTwoArrays(f);
 
-        /**
+        /*
          * 把二维数组复制出来并存储至一维数组
          */
         System.out.println("二维数组展开为");
