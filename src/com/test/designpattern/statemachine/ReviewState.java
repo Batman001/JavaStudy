@@ -16,8 +16,7 @@ public class ReviewState extends AbstractState {
 
     /**
      * 定价发布
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void makePriceEvent(Context context) {

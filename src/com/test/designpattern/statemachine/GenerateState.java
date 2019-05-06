@@ -8,7 +8,7 @@ public class GenerateState extends AbstractState {
     /**
      * 电审
      * 审核通过后 状态变更为已审核
-     * @param context
+      * @param context 环境上下文
      */
     @Override
     public void checkEvent(Context context) {
@@ -18,7 +18,7 @@ public class GenerateState extends AbstractState {
     /**
      * 电审失败
      * 电审失败后 状态变更为完结状态
-     * @param context
+      * @param context 环境上下文 环境上下文
      */
     @Override
     public void checkFailEvent(Context context) {

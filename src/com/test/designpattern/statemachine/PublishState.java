@@ -16,8 +16,7 @@ public class PublishState extends AbstractState {
 
     /**
      * 接单
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void acceptOrderEvent(Context context) {
@@ -26,8 +25,7 @@ public class PublishState extends AbstractState {
 
     /**
      * 无人接单失败
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void notPersonAcceptEvent(Context context) {

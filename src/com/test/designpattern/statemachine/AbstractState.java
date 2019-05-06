@@ -6,7 +6,7 @@ package com.test.designpattern.statemachine;
  */
 public abstract class AbstractState implements State {
 
-    protected static final RuntimeException EXCEPTION = new RuntimeException("操作流程不允许");
+    private static final RuntimeException EXCEPTION = new RuntimeException("操作流程不允许");
     /**
      * 电审
      *

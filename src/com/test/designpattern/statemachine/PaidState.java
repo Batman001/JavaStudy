@@ -16,7 +16,7 @@ public class PaidState extends AbstractState {
 
     /**
      * 反馈
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void feedBackEvent(Context context) {

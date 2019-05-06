@@ -16,7 +16,7 @@ public class NotPayState extends AbstractState {
 
     /**
      * 付款
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void payOrderEvent(Context context) {
@@ -25,7 +25,7 @@ public class NotPayState extends AbstractState {
 
     /**
      * 反馈
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void feedBackEvent(Context context) {

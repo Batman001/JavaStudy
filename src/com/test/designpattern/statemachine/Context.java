@@ -17,8 +17,7 @@ public class Context extends AbstractState {
 
     /**
      * 审核
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void checkEvent(Context context) {
@@ -28,8 +27,7 @@ public class Context extends AbstractState {
 
     /**
      * 审核失败
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void checkFailEvent(Context context) {
@@ -39,8 +37,7 @@ public class Context extends AbstractState {
 
     /**
      * 定价发布
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void makePriceEvent(Context context) {
@@ -50,8 +47,7 @@ public class Context extends AbstractState {
 
     /**
      * 接单
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void acceptOrderEvent(Context context) {
@@ -61,8 +57,7 @@ public class Context extends AbstractState {
 
     /**
      * 无人接单失败
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void notPersonAcceptEvent(Context context) {
@@ -72,8 +67,7 @@ public class Context extends AbstractState {
 
     /**
      * 付款
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void payOrderEvent(Context context) {
@@ -83,8 +77,7 @@ public class Context extends AbstractState {
 
     /**
      * 接单有人支付失效
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void orderFailureEvent(Context context) {
@@ -94,8 +87,7 @@ public class Context extends AbstractState {
 
     /**
      * 反馈
-     *
-     * @param context
+     * @param context 环境上下文
      */
     @Override
     public void feedBackEvent(Context context) {
@@ -105,7 +97,6 @@ public class Context extends AbstractState {
 
     /**
      * 得到当前事件的状态
-     *
      * @return String 当前状态
      */
     @Override
