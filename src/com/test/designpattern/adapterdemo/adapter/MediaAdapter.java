@@ -1,7 +1,7 @@
-package com.test.designpattern.adapter;
+package com.test.designpattern.adapterdemo.adapter;
 
-import static com.test.designpattern.adapter.AudioPlayer.mp4Type;
-import static com.test.designpattern.adapter.AudioPlayer.vlcType;
+import static com.test.designpattern.adapterdemo.adapter.AudioPlayer.mp4Type;
+import static com.test.designpattern.adapterdemo.adapter.AudioPlayer.vlcType;
 
 /**
  * @author Batman create on 2019-04-23 18:11

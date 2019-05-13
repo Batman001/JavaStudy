@@ -1,4 +1,4 @@
-package com.test.designpattern.adapter;
+package com.test.designpattern.adapterdemo.adapter;
 
 /**
  * 音频播放器类
