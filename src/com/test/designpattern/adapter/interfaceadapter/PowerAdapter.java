@@ -1,9 +1,11 @@
-package com.test.designpattern.adapterdemo.interfaceadapter;
+package com.test.designpattern.adapter.interfaceadapter;
 
-import com.test.designpattern.adapterdemo.classadapter.AC220;
+import com.test.designpattern.adapter.classadapter.AC220;
 
 /**
  * @author Batman create on 2019-05-13 10:58
+ * 适配5、9、12、24V电压的输出适配器
+ * 基于接口的适配器模式 (interfaceAdapter)
  */
 public class PowerAdapter implements DCOutput {
 

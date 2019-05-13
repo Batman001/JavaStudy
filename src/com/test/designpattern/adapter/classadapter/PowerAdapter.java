@@ -1,8 +1,8 @@
-package com.test.designpattern.adapterdemo.classadapter;
+package com.test.designpattern.adapter.classadapter;
 
 /**
  * @author Batman create on 2019-05-13 09:27
- * 类适配器模式
+ * 基于类的适配器模式 (classAdapter)
  */
 public class PowerAdapter extends AC220 implements DC5 {
     @Override
@@ -20,15 +20,15 @@ public class PowerAdapter extends AC220 implements DC5 {
         return (output/44);
     }
 
-    public void initClassAdapter(){
+    public static void initClassAdapter(){
         DC5 dc5 = new PowerAdapter();
         dc5.output5V();
+        System.out.println(dc5.output5V());
     }
 
     public static void main(String[] args) {
-        PowerAdapter pat = new PowerAdapter();
-        pat.initClassAdapter();
-        System.out.println(pat.output5V());
+        initClassAdapter();
+
 
     }
 }

@@ -1,4 +1,4 @@
-package com.test.designpattern.adapterdemo.adapter;
+package com.test.designpattern.adapter.complexadapter;
 
 /**
  * @author Batman create on 2019-04-23 18:06

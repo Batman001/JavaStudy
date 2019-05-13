@@ -1,11 +1,12 @@
-package com.test.designpattern.adapterdemo.interfaceadapter;
+package com.test.designpattern.adapter.interfaceadapter;
 
-import com.test.designpattern.adapterdemo.classadapter.AC220;
-import com.test.designpattern.adapterdemo.objadapter.PowerAdapter;
+import com.test.designpattern.adapter.classadapter.AC220;
+import com.test.designpattern.adapter.objadapter.PowerAdapter;
 
 /**
  * @author Batman create on 2019-05-13 10:43
  * 适配5V的适配器
+ * 基于接口的适配器模式 (interfaceAdapter)
  */
 public class Power5VAdapter extends PowerAdapter {
 

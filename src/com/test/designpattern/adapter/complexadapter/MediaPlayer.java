@@ -1,4 +1,4 @@
-package com.test.designpattern.adapterdemo.adapter;
+package com.test.designpattern.adapter.complexadapter;
 
 /**
  * 播放器接口
