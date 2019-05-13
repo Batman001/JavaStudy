@@ -2,6 +2,7 @@ package com.test.designpattern.builder;
 
 /**
  * @author Batman create on 2019-04-24 15:22
+ * 实现了食物接口的饮料基类
  */
 public abstract class BaseColdDrink implements Item{
     /**

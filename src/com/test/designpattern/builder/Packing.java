@@ -9,6 +9,6 @@ public interface Packing {
      * 食物包装的接口
      * @return String
      */
-    public String pack();
+    String pack();
 
 }

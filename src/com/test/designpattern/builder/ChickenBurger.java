@@ -2,6 +2,7 @@ package com.test.designpattern.builder;
 
 /**
  * @author Batman create on 2019-04-24 15:30
+ * 继承汉堡抽象类 的 鸡肉汉堡
  */
 public class ChickenBurger extends BaseBurger {
     /**

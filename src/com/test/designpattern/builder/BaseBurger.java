@@ -2,6 +2,7 @@ package com.test.designpattern.builder;
 
 /**
  * @author Batman create on 2019-04-24 15:20
+ * 实现了食物接口的汉堡基类 定义汉堡基类的包装和价格功能
  */
 public abstract class BaseBurger implements Item {
 
