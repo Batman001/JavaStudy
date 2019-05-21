@@ -58,7 +58,7 @@ public class TestGeneric {
         iterate(heros);
 
 
-        /**
+        /*
          * 子类泛型能否转成父类泛型
          */
 
