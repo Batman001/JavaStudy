@@ -4,10 +4,6 @@ import com.test.property.LifePotion;
 import com.test.property.Mortal;
 import com.test.property.Item;
 
-/**
- * Created on 2018/6/25.
- * @author Batman
- */
 
 //public class ADHero extends Hero {
 //
@@ -39,6 +35,8 @@ import com.test.property.Item;
 
 /**
  * 使用可变数量的参数, 控制英雄的数量, 只需要设置一个attack方法就可以实现多个参数实现attack方法
+ * Created on 2018/6/25.
+ * @author Batman
  */
 public class ADHero extends Hero implements AD,Mortal{
 
@@ -51,7 +49,7 @@ public class ADHero extends Hero implements AD,Mortal{
     int moveSpeed = 400;
 
     @Override
-    public void physicaAttack() {
+    public void physicalAttack() {
         System.out.println("进行物理攻击");
     }
 
@@ -120,7 +118,7 @@ public class ADHero extends Hero implements AD,Mortal{
         //bh.attack(h1);
         //bh.attack(h1,h2);
 
-        /** 类方法调用最好使用  类.类方法 的方式进行调用. */
+        /* 类方法调用最好使用  类.类方法 的方式进行调用. */
         ADHero.battleWin();
         Hero.battleWin();
 
@@ -131,7 +129,7 @@ public class ADHero extends Hero implements AD,Mortal{
         bh.useItem(lp);
 
 
-        /**
+        /*
          * 假设没有默认方法这种机制，
          * 那么如果要为Mortal增加一个新的方法revive,那么所有实现了Mortal接口的类，都需要做改动。
          * 但是引入了默认方法后，原来的类，不需要做任何改动，并且还能得到这个默认方法

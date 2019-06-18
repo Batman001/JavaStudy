@@ -15,7 +15,7 @@ public class ADAPHero extends Hero implements AD,AP,Mortal {
     public ADAPHero(){}
 
     @Override
-    public void physicaAttack() {
+    public void physicalAttack() {
 
     }
 

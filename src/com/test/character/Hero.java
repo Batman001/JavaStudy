@@ -10,14 +10,7 @@ import java.io.Serializable;
 import java.lang.String;
 
 
-
-/**
- * Created on 2018/5/16.
- * @author Batman
- */
-
-
-/**
+/*
  * 那么什么情况该用什么修饰符呢？
  * 从作用域来看，public能够使用所有的情况。 但是大家在工作的时候，又不会真正全部都使用public,那么到底什么情况该用什么修饰符呢？
 
@@ -33,7 +26,7 @@ import java.lang.String;
 
 /**
  * Interference class Hero implement Serializable
- * @author Batman
+ * @author Batman Created on 2018/5/16.
  *
  */
 public class Hero implements Serializable,HeroItem {
@@ -42,7 +35,7 @@ public class Hero implements Serializable,HeroItem {
     /** Hero实现了Serializable 接口 */
     private static final long serialVersionUID=1L;
 
-    /**
+    /*
      * protected饰符的属性 hp
      * 自己可以访问
      * 同包子类可以继承
@@ -71,7 +64,7 @@ public class Hero implements Serializable,HeroItem {
     /**
      * 护甲
      */
-    float armor;
+    private float armor;
     /**
      * 移动速度
      */
@@ -79,10 +72,10 @@ public class Hero implements Serializable,HeroItem {
     /**
      * 类属性,静态属性
      */
-    static String copyright;
+    private static String copyright;
     public int price;
     int damage = 5;
-    /**
+    /*
      * 对象属性初始化有3种
      * 1. 声明该属性的时候初始化
      * 2. 构造方法中初始化
@@ -93,13 +86,13 @@ public class Hero implements Serializable,HeroItem {
      * 类属性初始化两种形式(静态变量的两种初始化方式)
      * 声明的时候初始化
      */
-    public static int itemCapacity=8;
+    private static int itemCapacity=8;
     static{
         // 静态初始化块 初始化
         itemCapacity = 6;
     }
 
-    /**
+    /*
     public Hero(String heroName, float heroHp, float heroArmor, int heroMoveSpeed){
         name = heroName;
         hp = heroHp;
@@ -122,7 +115,7 @@ public class Hero implements Serializable,HeroItem {
 
     }
 
-    /**
+    /*
      * 带一个参数的this构造方法
      */
 //    public Hero(String heroName){
@@ -163,7 +156,7 @@ public class Hero implements Serializable,HeroItem {
     /**
      * 参数名和属性名一样
      * 在方法体中，只能访问到参数name
-     * @param name
+     * @param name 名称
      */
     public void setName1(String name){
         name = name;
@@ -174,7 +167,7 @@ public class Hero implements Serializable,HeroItem {
     }
 
     public void setName3(String name){
-        /**
+        /*
          * name 代表的是参数name
          * this.name 代表的属性name
          */
@@ -223,7 +216,12 @@ public class Hero implements Serializable,HeroItem {
         xp = 0;
     }
 
-    /** 攻击一个英雄,并让他掉damage的血量 */
+    /**
+     * 攻击一个英雄,并让他掉damage的血量
+     * @param hero 被攻击英雄
+     * @param damage 掉血量
+     * @throws EnemyHeroIsDeadException 自定义异常
+     */
     public void attack(Hero hero, int damage) throws EnemyHeroIsDeadException{
         if(hero.hp == 0){
             throw new EnemyHeroIsDeadException(hero.name + " 已经挂了,不需要施放技能");
@@ -245,7 +243,7 @@ public class Hero implements Serializable,HeroItem {
     }
 
     /**复活一个英雄 */
-    public void revive(Hero hero){
+    private void revive(Hero hero){
         hero = new Hero("提莫", 378.f);
     }
 
@@ -254,8 +252,8 @@ public class Hero implements Serializable,HeroItem {
      * 类方法,静态方法
      * 通过类就可以直接调用
      */
-    public static void battleWin(){
-        /**
+    protected static void battleWin(){
+        /*
          * 此行会报错,由于battleWin是静态方法,通过类名调用,而name属性为非静态属性
          * 静态方法不可以调用非静态变量,只可以调用静态的属性
          */
@@ -270,7 +268,7 @@ public class Hero implements Serializable,HeroItem {
     }
 
     /** 类方法 没有调用对象的任何属性 */
-    public static void playGameDuration(){
+    private static void playGameDuration(){
         System.out.println("已经玩了10份50秒");
     }
 
@@ -278,7 +276,7 @@ public class Hero implements Serializable,HeroItem {
         i.effect();
     }
 
-    public void kill(Mortal m){
+    private void kill(Mortal m){
         m.die();
     }
 

@@ -4,7 +4,10 @@ package com.test.property;
  * Created by Batman on 2018/6/28.
  */
 public interface Mortal {
-      public void die();
+    /**
+     * 非永生的类 就会有die的方法 死亡
+     */
+      void die();
 
     /**
      * 默认方法是JDK8新特性，指的是接口也可以提供具体方法了，而不像以前，只能提供抽象方法
@@ -15,7 +18,7 @@ public interface Mortal {
      */
 
 
-      default public void revive(){
+      default void revive(){
           System.out.println("本英雄复活了");
     }
 }

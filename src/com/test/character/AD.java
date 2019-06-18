@@ -6,7 +6,7 @@ package com.test.character;
  */
 public interface AD {
     /** 物理伤害 */
-    public void physicaAttack();
+    public void physicalAttack();
 
     default public void attack(){
         System.out.println("这是AD接口的attack");
