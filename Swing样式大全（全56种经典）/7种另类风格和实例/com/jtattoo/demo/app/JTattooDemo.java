@@ -5,14 +5,6 @@
 
 package com.jtattoo.demo.app;
 
-import java.util.*;
-import java.awt.*;
-import java.awt.event.*;
-
-import javax.swing.*;
-import javax.swing.plaf.metal.*;
-
-import com.jtattoo.plaf.*;
 import com.jtattoo.demo.images.*;
 
 /**
