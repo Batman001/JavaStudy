@@ -20,7 +20,7 @@ import com.jtattoo.demo.images.*;
  */
 public class JTattooDemo extends JFrame implements IDemoApp {
     public static GUIProperties guiProps = new GUIProperties();
-    
+
     private static final Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     private static final Dimension appSize = new Dimension(880, 660);
     private static final int appPosX = (screenSize.width / 2) - (appSize.width / 2);
@@ -28,10 +28,10 @@ public class JTattooDemo extends JFrame implements IDemoApp {
     private static Rectangle appBounds = new Rectangle(appPosX, appPosY, appSize.width, appSize.height);
     private static final String appTitle = "JTattoo - Demo";
     private static JTattooDemo app = null;
-    
+
     private JWindow splashScreen = null;
     private SplashPanel splashPanel = null;
-    
+
     private MainMenuBar menuBar = null;
     private MainToolBar toolBar = null;
     private JPanel contentPanel = null;
@@ -39,22 +39,22 @@ public class JTattooDemo extends JFrame implements IDemoApp {
     private RightPanel rightPanel = null;
     private JSplitPane splitPane = null;
     private JTabbedPane mainTabbedPane = null;
-    
+
     public JTattooDemo() {
         super(appTitle);
         init();
     }
-    
+
     public JTattooDemo(Rectangle bounds) {
         super(appTitle);
         appBounds = bounds;
         init();
     }
-    
+
     public void performExit() {
         System.exit(0);
     }
-    
+
     private void init() {
         // create splash screen
         splashPanel = new SplashPanel();
@@ -63,20 +63,20 @@ public class JTattooDemo extends JFrame implements IDemoApp {
         splashScreen.pack();
         Dimension size = splashScreen.getSize();
         splashScreen.setLocation(screenSize.width / 2 - size.width / 2, screenSize.height / 2 - size.height / 2);
-        
+
         // Show the splash screen on the gui thread using invokeLater
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 splashScreen.setVisible(true);
             }
         });
-        
+
         initModel();
         initMenuBar();
         initToolBar();
         initContentPane();
         initListeners();
-        
+
         // Show the demo and take down the splash screen. Note that we again must do this on the GUI thread using invokeLater.
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
@@ -87,19 +87,19 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             }
         });
     }
-    
+
     private void initModel() {
     }
-    
+
     private void initMenuBar() {
         menuBar = new MainMenuBar(this);
         setJMenuBar(menuBar);
     }
-    
+
     private void initToolBar() {
         toolBar = new MainToolBar();
     }
-    
+
     private void initContentPane() {
         contentPanel = new JPanel(new BorderLayout());
         leftPanel = new LeftPanel(this);
@@ -110,7 +110,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
         contentPanel.add(splitPane, BorderLayout.CENTER);
         setContentPane(contentPanel);
     }
-    
+
     private void initListeners() {
         addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
@@ -118,7 +118,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             }
         });
     }
-    
+
     private void showApp() {
         setIconImage(ImageHelper.loadImage("logo.gif").getImage());
         setBounds(appBounds);
@@ -128,11 +128,11 @@ public class JTattooDemo extends JFrame implements IDemoApp {
     public GUIProperties getGuiProps() {
         return guiProps;
     }
-    
+
     public void setMainTabbedPane(JTabbedPane tabPane) {
         mainTabbedPane = tabPane;
     }
-    
+
     public JTabbedPane getMainTabbedPane() {
         return mainTabbedPane;
     }
@@ -141,7 +141,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
         try {
             // If new look handles the WindowDecorationStyle not in the same manner as the old look
             // we have to reboot our application.
-            
+
             LookAndFeel oldLAF = UIManager.getLookAndFeel();
             boolean oldDecorated = false;
             if (oldLAF instanceof MetalLookAndFeel)
@@ -150,7 +150,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
                 BaseTheme theme = (BaseTheme)((AbstractLookAndFeel)oldLAF).getTheme();
                 oldDecorated = theme.isWindowDecorationOn();
             }
-            
+
             // reset to default theme
             if (lf.equals(GUIProperties.PLAF_METAL))
                 javax.swing.plaf.metal.MetalLookAndFeel.setCurrentTheme(new javax.swing.plaf.metal.DefaultMetalTheme());
@@ -176,11 +176,11 @@ public class JTattooDemo extends JFrame implements IDemoApp {
                 com.jtattoo.plaf.noire.NoireLookAndFeel.setTheme("Default");
             else if (lf.equals(GUIProperties.PLAF_LUNA))
                 com.jtattoo.plaf.luna.LunaLookAndFeel.setTheme("Default");
-            
+
             guiProps.setTheme("Default");
             guiProps.setLookAndFeel(lf);
             UIManager.setLookAndFeel(guiProps.getLookAndFeel());
-            
+
             LookAndFeel newLAF = UIManager.getLookAndFeel();
             boolean newDecorated = false;
             if (newLAF instanceof MetalLookAndFeel)
@@ -209,7 +209,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             System.out.println("Failed loading L&F: " + guiProps.getLookAndFeel() + " Exception: " + ex.getMessage());
         }
     }
-    
+
     public void updateTheme(String theme) {
         if (theme != null) {
             try {
@@ -252,7 +252,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             }
         }
     }
-    
+
     public void setTextAntiAliasing(boolean taa) {
         try {
             LookAndFeel laf = UIManager.getLookAndFeel();
@@ -326,7 +326,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             System.out.println("Failed setting theme! Exception: " + ex.getMessage());
         }
     }
-    
+
     public void setBackgroundPattern(boolean pattern) {
         try {
             LookAndFeel laf = UIManager.getLookAndFeel();
@@ -400,7 +400,7 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             System.out.println("Failed setting theme! Exception: " + ex.getMessage());
         }
     }
-    
+
     public static void main(String args[]) {
         try {
             UIManager.setLookAndFeel(guiProps.getLookAndFeel());
@@ -410,6 +410,6 @@ public class JTattooDemo extends JFrame implements IDemoApp {
             ex.printStackTrace();
         }
     }
-    
-    
+
+
 }
