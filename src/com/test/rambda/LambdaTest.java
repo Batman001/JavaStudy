@@ -15,6 +15,7 @@ public class LambdaTest {
 
         // 大括号中的返回语句
         MathOperation multiplication = (int a, int b) -> {return a * b; };
+
         // 没有大括号及返回语句
         MathOperation division = (int a, int b) -> a / b;
 
