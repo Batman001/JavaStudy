@@ -1,6 +1,5 @@
 package com.test.digitstring;
 
-import org.jetbrains.annotations.Contract;
 
 /**
  * Created by Batman on 2018/7/5.
@@ -16,7 +15,6 @@ public class Password {
         private static final Password INSTANCE = new Password(CombineTest.randomString(3));
     }
 
-    @Contract(pure = true)
     public static final Password getInstance(){
         return PasswordCreate.INSTANCE;
     }

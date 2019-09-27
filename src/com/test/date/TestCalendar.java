@@ -3,7 +3,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
-import static com.sun.tools.javac.util.Constants.format;
 
 /**
  * Created by Batman on 2018/7/17.

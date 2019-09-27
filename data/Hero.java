@@ -203,7 +203,7 @@ public class Hero {
 
     // 应用枚举类型 将英雄进行分类
     public enum HeroType{
-        TANK,WIZARD,ASSASSIN,ASSIST,WARRIOR,RANGED,PUSH,\FARMING;
+        TANK,WIZARD,ASSASSIN,ASSIST,WARRIOR,RANGED,PUSH,FARMING;
     }
 
     // 非静态内部类，只有一个外部类对象存在的时候，才有意义
