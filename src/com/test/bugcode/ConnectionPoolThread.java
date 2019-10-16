@@ -12,11 +12,10 @@ import java.sql.SQLException;
  */
 public class ConnectionPoolThread {
 
-    int threadCount;
-    int connectionPoolSize;
-    public ConnectionPoolThread(int threadCount, int connectionPoolSize){
+    private int threadCount;
+
+    ConnectionPoolThread(int threadCount, int connectionPoolSize){
         this.threadCount = threadCount;
-        this.connectionPoolSize = connectionPoolSize;
 
     }
 
@@ -31,7 +30,7 @@ public class ConnectionPoolThread {
 class ConnectionPoolWorkingThread extends Thread{
     private ConnectionPool cp;
 
-    public ConnectionPoolWorkingThread(String name, ConnectionPool cp){
+    ConnectionPoolWorkingThread(String name, ConnectionPool cp){
         super(name);
         this.cp = cp;
     }
