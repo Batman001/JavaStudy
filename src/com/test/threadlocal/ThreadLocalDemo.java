@@ -2,6 +2,7 @@ package com.test.threadlocal;
 
 /**
  * @author Batman create on 2019-09-20 16:28
+ * ThreadLocal的实例代表了一个线程局部的变量，每条线程都只能看到自己的值，并不会意识到其它的线程中也存在该变量。
  */
 public class ThreadLocalDemo {
     private static final ThreadLocal<Integer> value = new ThreadLocal<Integer>() {
@@ -12,7 +13,7 @@ public class ThreadLocalDemo {
     };
 
     public static void main(String[] args) {
-        for(int i=0; i < 5; i++) {
+        for(int i=0; i<5; i++) {
             new Thread(new MyThread(i)).start();
 
         }
