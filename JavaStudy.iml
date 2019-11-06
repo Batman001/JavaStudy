@@ -24,8 +24,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="log4j-1.2.17" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:6.0.4" level="project" />
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-core:1.6.4" level="project" />
@@ -34,5 +32,14 @@
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-action:1.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-plaf:1.6.4" level="project" />
     <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-painters:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:6.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-core:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-autocomplete:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-common:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-action:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-plaf:1.6.4" level="project" />
+    <orderEntry type="library" name="Maven: org.swinglabs.swingx:swingx-painters:1.6.4" level="project" />
+    <orderEntry type="library" name="cnframe_excelimport-1.0.0" level="project" />
   </component>
 </module>
