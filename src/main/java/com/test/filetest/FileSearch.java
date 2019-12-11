@@ -20,6 +20,7 @@ public class FileSearch {
         if(file.isFile()){
             if(file.getName().toLowerCase().endsWith(".java")){
                 String fileContent = readFileContent(file);
+                assert fileContent != null;
                 if(fileContent.contains(search)){
                     System.out.printf("找到子目标字符串%s,在文件:%s%n", search, file);
                 }
@@ -27,7 +28,7 @@ public class FileSearch {
         }
         if(file.isDirectory()){
             File[] fs = file.listFiles();
-            for(File f:fs){
+            for(File f: fs){
                 search(f, search);
             }
         }

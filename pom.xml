@@ -35,6 +35,12 @@
             <version>6.0.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.swinglabs.swingx/swingx-core -->
         <dependency>
             <groupId>org.swinglabs.swingx</groupId>

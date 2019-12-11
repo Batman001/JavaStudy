@@ -1,4 +1,4 @@
-package com.test.thread;
+package com.test.thread.threadpool;
 
 /**
  * Created by Batman on 2018/10/17.
@@ -9,6 +9,7 @@ public class ThreadPoolTest {
         ThreadPool pool = new ThreadPool();
 
         int sleep = 1000;
+
         while(true){
             pool.add(new Runnable() {
                 @Override

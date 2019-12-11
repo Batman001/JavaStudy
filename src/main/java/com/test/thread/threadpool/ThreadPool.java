@@ -1,4 +1,4 @@
-package com.test.thread;
+package com.test.thread.threadpool;
 
 import java.util.LinkedList;
 
@@ -10,17 +10,17 @@ public class ThreadPool {
     /**
      * 线程池大小
      */
-    int threadPoolSize;
+    private int threadPoolSize;
 
     /**
      * 任务容器
      */
-    LinkedList<Runnable> tasks = new LinkedList<>();
+    private final LinkedList<Runnable> tasks = new LinkedList<>();
 
-    public ThreadPool(){
-        threadPoolSize = 10;
+    ThreadPool(){
+        this.threadPoolSize = 10;
         synchronized (tasks){
-            for(int i=0;i<threadPoolSize;i++){
+            for(int i=0; i<threadPoolSize; i++){
                 new ConsumerThread("消费者线程" + i).start();
             }
         }
@@ -36,11 +36,10 @@ public class ThreadPool {
     }
     class ConsumerThread extends Thread{
 
-        public ConsumerThread(String name){
+        ConsumerThread(String name){
             super(name);
         }
 
-        Runnable task;
         @Override
         public void run(){
             System.out.println("启动线程:" + this.getName());
