@@ -18,6 +18,7 @@ public class SplitMergeFile {
     private static void merge(File mf) {
         if(mf == null)
             System.out.println("合并文件路径为空");
+        assert mf != null;
         if(!mf.exists())
             System.out.println("合并的子文件不存在");
         File f = new File(mf.getAbsoluteFile() + "/merge.mp3");

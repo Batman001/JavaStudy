@@ -11,16 +11,16 @@ public class Account {
     private double balance;  //余额
     private double deficit;  //透支额
     // 获取当前账号的余额
-    public double getBanlance(){
+    private double getBanlance(){
         return this.balance;
     }
     // 设置余额的方法
-    public void setAccountMoney(double deposit){
+    private void setAccountMoney(double deposit){
         this.balance = deposit;
     }
 
     // 存钱方法
-    public void deposit() throws OverdraftException {
+    private void deposit() throws OverdraftException {
         System.out.println("请输入存钱的金额:");
         double amt = scaner.nextDouble();
         // 判断amt是否合法
@@ -34,7 +34,7 @@ public class Account {
     }
 
     // 取钱方法
-    public void withdraw() throws OverdraftException{
+    private void withdraw() throws OverdraftException{
         System.out.println("请输入你取钱的金额: ");
         double amt = scaner.nextDouble();
         if(amt>0 && amt<=getBanlance()){
