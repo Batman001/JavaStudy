@@ -1,8 +1,5 @@
 package com.test.designpattern.singleton_;
 
-import com.sun.imageio.plugins.common.LZWCompressor;
-import sun.reflect.generics.reflectiveObjects.LazyReflectiveObjectGenerator;
-
 /**
  * <p>懒汉式单例模式</p>
  *
