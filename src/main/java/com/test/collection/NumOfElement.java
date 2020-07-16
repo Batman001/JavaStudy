@@ -3,7 +3,7 @@ package com.test.collection;
 import java.util.*;
 
 /**
- * @author sunchao
+ * @author Batman
  * @create 2019-01-16 9:11 AM
  */
 public class NumOfElement {

@@ -56,4 +56,4 @@ public class SynchronizationThreadObject {
     private static String now() {
         return new  SimpleDateFormat("HH:mm:ss").format(new Date());
     }
-    }
+}

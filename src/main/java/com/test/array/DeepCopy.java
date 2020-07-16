@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * <p>Java ArrayList深浅拷贝问题</p>
  *
- * @author : sunchao
+ * @author : Batman
  * date : 2020-07-13 10:07
  **/
 public class DeepCopy {
