@@ -7,5 +7,5 @@ public enum EnumSingleton {
     /**
      * 枚举单例类
      */
-    INSTANCE;
+    INSTANCE
 }
