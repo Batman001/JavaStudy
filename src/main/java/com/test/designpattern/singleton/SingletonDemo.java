@@ -7,7 +7,7 @@ public class SingletonDemo {
     public static void main(String[] args) {
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
-        System.out.println(s1 == s2);
+        System.out.printf("通过单例模式判断生成的实例是否为同一个实例，判断结果如：%s \n",(String.valueOf(s1 == s2)));
 
         Singleton1 s3 = Singleton1.getInstance();
         Singleton1 s4 = Singleton1.getInstance();
