@@ -60,9 +60,14 @@ public class ProducerConsumerTest {
 //        ProducerConsumerTest pct = new ProducerConsumerTest();
         new ProduceThread(stack,"producer1").start();
         new ProduceThread(stack,"producer2").start();
+        new ProduceThread(stack,"producer3").start();
+        new ProduceThread(stack,"producer4").start();
+        new ProduceThread(stack,"producer5").start();
         new ConsumerThread(stack,"consumer1").start();
         new ConsumerThread(stack,"consumer2").start();
         new ConsumerThread(stack,"consumer3").start();
+        new ConsumerThread(stack,"consumer4").start();
+        new ConsumerThread(stack,"consumer5").start();
 
     }
 }

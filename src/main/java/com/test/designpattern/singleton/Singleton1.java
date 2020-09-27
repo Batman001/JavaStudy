@@ -2,7 +2,7 @@ package com.test.designpattern.singleton;
 
 /**
  * @author Batman create on 2019-04-22 16:01
- * 线程安全的类
+ * 线程安全的单例实现类
  */
 public class Singleton1 {
     private static Singleton1 instance = null;
